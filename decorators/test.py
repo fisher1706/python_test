@@ -1,5 +1,3 @@
-
-
 def second_outer(*dargs, **dkwargs): # параметры декоратора
     def outer(func): # функция
         def inner(*args, **kwargs): # параметры функции

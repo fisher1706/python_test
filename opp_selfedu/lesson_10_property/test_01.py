@@ -12,4 +12,5 @@ class Person:
 
 if __name__ == '__main__':
     p = Person("oleg", 40)
+    p.set_old(30)
     print(p.get_old())

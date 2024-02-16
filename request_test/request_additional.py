@@ -2,6 +2,8 @@
 
 import requests
 
+# TODO: start proxy server first
+
 """
 PROXY
 """
@@ -83,8 +85,8 @@ DOWNLOAD
 """
 
 URL_DOWNLOAD = 'https://ukr.net'
-# URL_DOWNLOAD_LAGE = 'https://www.facebook.com/photo/?fbid=4440947052624918&set=a.695471223839205'
-URL_DOWNLOAD_LAGE = 'http://www.shutterstock.com/blog/india/wp-content/uploads/sites/10/2018/04/freestock_2991094.jpg?resize=1250,1120'
+URL_DOWNLOAD_LAGE = 'http://www.shutterstock.com/blog/india/wp-content/uploads/sites/10/2018/04/' \
+                    'freestock_2991094.jpg?resize=1250,1120'
 URL_UPLOAD = 'http://httpbin.org/anything'
 
 
@@ -124,19 +126,17 @@ def upload_downloaded_big_image(
 
 
 if __name__ == '__main__':
-    # print(resp_proxy.status_code)
-    # print("*" * 200)
-    #
-    # print(resp_headers.cookies.items())
-    # print(resp_cookies.cookies.items())
-    # print("*" * 200)
+    print(resp_proxy.status_code)
+    print("*" * 200)
 
-    # print(resp_redirect_one.history)
-    # print(resp_redirect_timeout.history)
-    # print(resp_redirect_forbidden.history)
-    # print("*" * 200)
+    print(resp_headers.cookies.items())
+    print(resp_cookies.cookies.items())
+    print("*" * 200)
 
-    # open_download_content()
+    print(resp_redirect_one.history)
+    print(resp_redirect_timeout.history)
+    print(resp_redirect_forbidden.history)
+    print("*" * 200)
+
+    open_download_content()
     upload_downloaded_big_image()
-
-

@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from pprint import pprint
 
 
 class Thing:
@@ -29,21 +28,21 @@ __init()__, __repr__, __eq__
 """
 
 if __name__ == '__main__':
-    t_1 = Thing("book", 100, 1024)
+    t_1 = Thing("interview_questions", 100, 1024)
     print(t_1)
 
     t_1.dims.append(10)
     print(t_1)
     print("*" * 200)
 
-    t_2 = Thing("book", 100, 1024)
+    t_2 = Thing("interview_questions", 100, 1024)
     print(t_2)
     print("*" * 200)
 
-    td_1 = ThingData("book", 100, 1024)
+    td_1 = ThingData("interview_questions", 100, 1024)
     print(td_1)
 
-    td_2 = ThingData("book", 100, 1024)
+    td_2 = ThingData("interview_questions", 100, 1024)
     print(td_1 == td_2)
     print("*" * 200)
 
@@ -51,5 +50,3 @@ if __name__ == '__main__':
 
     td_3 = ThingData("zapel", 1000)
     print(td_3.__dict__)
-
-    # pprint(ThingData.__dict__)

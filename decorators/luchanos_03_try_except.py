@@ -1,7 +1,7 @@
 # https://www.youtube.com/watch?v=M9XG1iOua7c&list=PLlKID9PnOE5h8VJyEiEd_Uv_-tt9KX7MD&index=3
 
 
-def second_outer(*dargs, **dkwargs):
+def second_outer(**dkwargs):
     def outer(func):
         def inner(*args, **kwargs):
             attempts = dkwargs["attempts"]

@@ -1,6 +1,13 @@
 # https://www.youtube.com/watch?v=gfvJj0kFQeg&list=PLlKID9PnOE5h8VJyEiEd_Uv_-tt9KX7MD&index=2
 
 
+"""
+Декоратор в Python - это паттерн проектирования - синтаксический сахар - функция - объект,
+которая принимает другую функцию в качестве аргумента и расширяет ее
+функциональность без изменения ее кода.
+"""
+
+
 def outer(func):
     def inner(*args, **kwargs):
         print('message')

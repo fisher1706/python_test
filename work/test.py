@@ -1,5 +1,6 @@
 import random
 
+
 def counter(number=5):
     slave = [random.randint(0, 1) for _ in range(number)]
     print('slave: ', slave)
@@ -18,4 +19,5 @@ def counter(number=5):
     return sum(result)
 
 
-x = counter()
+if __name__ == '__main__':
+    counter()

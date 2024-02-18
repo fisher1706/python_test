@@ -40,7 +40,7 @@ if __name__ == '__main__':
     print(id(db_one), id(db_two))
 
     """
-    work with method __call__ for that
+    interview_tasts_examples with method __call__ for that
     """
     db_one.connect_db()
     db_two.connect_db()

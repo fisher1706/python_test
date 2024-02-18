@@ -1,7 +1,7 @@
 import random
 
 
-def counter(number=5):
+def counter(number=9):
     slave = [random.randint(0, 1) for _ in range(number)]
     print('slave: ', slave)
 

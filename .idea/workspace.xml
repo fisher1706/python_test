@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6edc163b-469e-4690-ae79-5b214a848adb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/visability_global_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/find_dublicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/max_munber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/polinomial_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/quantity_words_in_str.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/sum_of_digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasts_examples/triangle_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/closures/egoroff_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/closures/egoroff_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/luchanos_01_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luchanos_01_pattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/luchanos_02_@_interview.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luchanos_02_@_interview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/luchanos_03_try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luchanos_03_try_except.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/luchanos_05_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luchanos_05_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorators/molchanov.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/molchanov.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/luchanos.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/luchanos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/test_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/test_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opp_selfedu/lesson_10_property/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_selfedu/lesson_10_property/test_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opp_selfedu/lesson_26_mixin/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_selfedu/lesson_26_mixin/test_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opp_selfedu/lesson_36_metaclass/test_02_by_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_selfedu/lesson_36_metaclass/test_02_by_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opp_selfedu/lesson_38/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_selfedu/lesson_38/test_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_test/download_folder/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/download_folder/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_test/request_additional.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/request_additional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/args_kwargs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/global_var.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/slice.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/slice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opp_selfedu/lesson_05/test_02_singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_selfedu/lesson_05/test_02_singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/dict_metods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasts_examples/sort_list_1_0_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,8 +151,8 @@
       <recent name="$PROJECT_DIR$/decorators" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.corutine_example">
-    <configuration name="abstract_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.bubble_sort">
+    <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasts_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/abstract_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasts_examples/bubble_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="corutine_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="max_munber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,12 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasts_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/corutine_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasts_examples/max_munber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="luchanos_02_@_interview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="polinomial_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,12 +204,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decorators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasts_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decorators/luchanos_02_@_interview.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasts_examples/polinomial_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mro_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="quantity_words_in_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,12 +226,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_questions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasts_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/mro_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasts_examples/quantity_words_in_str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="triangle_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,12 +248,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasts_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasts_examples/triangle_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +263,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.abstract_class" />
-      <item itemvalue="Python.corutine_example" />
-      <item itemvalue="Python.luchanos_02_@_interview" />
-      <item itemvalue="Python.mro_example" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.bubble_sort" />
+      <item itemvalue="Python.max_munber" />
+      <item itemvalue="Python.polinomial_example" />
+      <item itemvalue="Python.quantity_words_in_str" />
+      <item itemvalue="Python.triangle_example" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.corutine_example" />
-        <item itemvalue="Python.mro_example" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.abstract_class" />
-        <item itemvalue="Python.luchanos_02_@_interview" />
+        <item itemvalue="Python.bubble_sort" />
+        <item itemvalue="Python.triangle_example" />
+        <item itemvalue="Python.quantity_words_in_str" />
+        <item itemvalue="Python.polinomial_example" />
+        <item itemvalue="Python.max_munber" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +302,8 @@
       <workItem from="1707474832529" duration="1330000" />
       <workItem from="1707999983800" duration="20368000" />
       <workItem from="1708035330924" duration="264000" />
-      <workItem from="1708038974728" duration="25685000" />
+      <workItem from="1708038974728" duration="27371000" />
+      <workItem from="1708244176405" duration="18253000" />
     </task>
     <servers />
   </component>
@@ -356,12 +356,16 @@
     <SUITE FILE_PATH="coverage/python_test$index.coverage" NAME="index Coverage Results" MODIFIED="1705440055511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test/test2" />
     <SUITE FILE_PATH="coverage/python_test$ternary_operator.coverage" NAME="ternary_operator Coverage Results" MODIFIED="1708086326662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_questions" />
     <SUITE FILE_PATH="coverage/python_test$string_example.coverage" NAME="string_example Coverage Results" MODIFIED="1708077601226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_questions" />
+    <SUITE FILE_PATH="coverage/python_test$quantity_words_in_str.coverage" NAME="quantity_words_in_str Coverage Results" MODIFIED="1708265735979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$luchanos_02__.coverage" NAME="luchanos_02_@ Coverage Results" MODIFIED="1705418569529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/python_test$test_02.coverage" NAME="test_02 Coverage Results" MODIFIED="1708017791728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opp_selfedu/lesson_10_property" />
     <SUITE FILE_PATH="coverage/python_test$documentation.coverage" NAME="documentation Coverage Results" MODIFIED="1708003609875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
     <SUITE FILE_PATH="coverage/python_test$test_05.coverage" NAME="test_05 Coverage Results" MODIFIED="1708026181683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opp_selfedu/lesson_04" />
+    <SUITE FILE_PATH="coverage/python_test$visability_global_var.coverage" NAME="visability_global_var Coverage Results" MODIFIED="1708249798354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_questions" />
+    <SUITE FILE_PATH="coverage/python_test$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1708256323407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$luchanos_04.coverage" NAME="luchanos_04_two@ Coverage Results" MODIFIED="1705431866450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/python_test$test_2.coverage" NAME="request_test Coverage Results" MODIFIED="1705473333642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
+    <SUITE FILE_PATH="coverage/python_test$find_dublicates.coverage" NAME="find_dublicates Coverage Results" MODIFIED="1708259505124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$iterator.coverage" NAME="iterator Coverage Results" MODIFIED="1708022181909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
     <SUITE FILE_PATH="coverage/python_test$slice.coverage" NAME="slice Coverage Results" MODIFIED="1708011002246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
     <SUITE FILE_PATH="coverage/python_test$request_test_proxy.coverage" NAME="request_additional Coverage Results" MODIFIED="1705483261610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
@@ -369,6 +373,7 @@
     <SUITE FILE_PATH="coverage/python_test$egoroff_02.coverage" NAME="egoroff_02 Coverage Results" MODIFIED="1705511810992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/closures" />
     <SUITE FILE_PATH="coverage/python_test$metaclass.coverage" NAME="metaclass Coverage Results" MODIFIED="1708033865297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_questions" />
     <SUITE FILE_PATH="coverage/python_test$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1705407776893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
+    <SUITE FILE_PATH="coverage/python_test$triangle_example.coverage" NAME="triangle_example Coverage Results" MODIFIED="1708267286091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$all_method_of_object.coverage" NAME="all_method_of_object Coverage Results" MODIFIED="1708078342884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_questions" />
     <SUITE FILE_PATH="coverage/python_test$main.coverage" NAME="main Coverage Results" MODIFIED="1708008663034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book/one" />
     <SUITE FILE_PATH="coverage/python_test$___is.coverage" NAME="==_is Coverage Results" MODIFIED="1708076805960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_questions/two" />
@@ -400,12 +405,15 @@
     <SUITE FILE_PATH="coverage/python_test$request_post_put.coverage" NAME="request_post_put Coverage Results" MODIFIED="1705436895847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_test" />
     <SUITE FILE_PATH="coverage/python_test$test_01__1_.coverage" NAME="test_01 (1) Coverage Results" MODIFIED="1708023446422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/opp_selfedu/lesson_33_content_manager" />
     <SUITE FILE_PATH="coverage/python_test$async.coverage" NAME="async Coverage Results" MODIFIED="1708019497456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
+    <SUITE FILE_PATH="coverage/python_test$polinomial_example.coverage" NAME="polinomial_example Coverage Results" MODIFIED="1708263998403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$luchanos_01.coverage" NAME="luchanos Coverage Results" MODIFIED="1705498678297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators" />
     <SUITE FILE_PATH="coverage/python_test$egoroff__1_.coverage" NAME="egoroff (1) Coverage Results" MODIFIED="1705509619190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/closures" />
     <SUITE FILE_PATH="coverage/python_test$lambda.coverage" NAME="lambda Coverage Results" MODIFIED="1708002997624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
+    <SUITE FILE_PATH="coverage/python_test$max_munber.coverage" NAME="max_munber Coverage Results" MODIFIED="1708262922000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
     <SUITE FILE_PATH="coverage/python_test$test_class_example.coverage" NAME="test_class_example Coverage Results" MODIFIED="1705414434252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorators" />
     <SUITE FILE_PATH="coverage/python_test$binary_to_int.coverage" NAME="binary_to_int Coverage Results" MODIFIED="1708010820591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book" />
     <SUITE FILE_PATH="coverage/python_test$test.coverage" NAME="test Coverage Results" MODIFIED="1708091972613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/work" />
+    <SUITE FILE_PATH="coverage/python_test$sum_of_digits.coverage" NAME="sum_of_digits Coverage Results" MODIFIED="1708262502727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview_tasts_examples" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/generators/__init__.py">

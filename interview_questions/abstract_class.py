@@ -40,3 +40,6 @@ class Child(Parent):
 if __name__ == '__main__':
     ch = Child()
     print(ch.__dict__)
+
+    ch.set_info("name", "Oleg")
+    print(ch.__dict__)

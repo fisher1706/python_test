@@ -4,7 +4,7 @@ b = [1, 2, 3]
 
 
 if __name__ == '__main__':
-    print(id(a))
-    print(id(b))
-    print(id(c))
+    print(f"id a: {id(a)}")
+    print(f"id b: {id(b)}")
+    print(f"id c: {id(c)}")
     

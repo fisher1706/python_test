@@ -15,6 +15,11 @@ def outer(func):
     return inner
 
 
+@outer
+def div(a, b):
+    return a / b
+
+
 def second_outer(*dargs, **dkwargs):
     def outer_two(func):
         def inner_two(*args, **kwargs):
@@ -24,11 +29,6 @@ def second_outer(*dargs, **dkwargs):
     return outer_two
 
 
-@outer
-def div(a, b):
-    return a / b
-
-
 @second_outer('mess')
 def div_two(a, b):
     return a / b
@@ -36,4 +36,17 @@ def div_two(a, b):
 
 if __name__ == '__main__':
     print(div(1, 2))
+    print("*" * 200)
+
+    """
+    перед работой закоментировать декоратор @outer
+    """
+    o = outer(div)
+    print(o.__name__)
+    o(1, 2)
+    print("*" * 200)
+
+    print(outer(div)(1, 2))
+    print("*" * 200)
+
     print(div_two(1, 2))

@@ -1,7 +1,4 @@
-a = [1, 3, 6, 4, 1, 2]
-
-print(max(a))
-print(min(a))
+a = [1, -3, 6, 4, 1, 2]
 
 
 def max_non_number(array: list):

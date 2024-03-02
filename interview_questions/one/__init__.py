@@ -1,3 +1,3 @@
-print("Hello from one module")
+VALUE = "ZAPEL"
 
-VAVUE = "ZAPEL"
+print(f"Hello from one module - init variable - {VALUE}")

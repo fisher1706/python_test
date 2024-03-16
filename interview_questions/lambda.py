@@ -12,3 +12,5 @@ squares = list(map(lambda x: x**2, numbers))
 
 if __name__ == '__main__':
     print(squares)
+
+    print((lambda x, y: x + y)(1, 2))

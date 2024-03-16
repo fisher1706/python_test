@@ -41,3 +41,6 @@ if __name__ == '__main__':
     check = check_dublicates(example_two)
     print(check)
     print("*" * 200)
+
+    for i in range(10):
+        print(i)

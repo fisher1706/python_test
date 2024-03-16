@@ -23,11 +23,12 @@ import asyncio
 """
 
 
-def genf():
+def my_gen():
     out = 7
     for item in [43, 65, 32]:
         yield item
-        print(out)
+        print(f"out:= {out}")
+        print(f"item:= {item}")
         out = out * 10 + 7
 
 
@@ -67,7 +68,7 @@ async def main():
 
 
 if __name__ == '__main__':
-    s = genf()
+    s = my_gen()
     print(s)
     print(next(s))
     print(next(s))

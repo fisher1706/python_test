@@ -34,5 +34,5 @@ class PersonJson(JsonMixin, Person):  # Использование миксин�
 
 
 if __name__ == '__main__':
-    p = PersonJson('Иван', 25)
+    p = PersonJson('Oleg', 25)
     print(p.to_json())  # Выведет строку в формате JSON, представляющую объект PersonJson

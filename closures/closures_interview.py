@@ -31,6 +31,7 @@ if __name__ == '__main__':
     closures = outer_function(10)
     print(closures.__name__)
     print(closures(5))
+    print(closures(10))
     print("*" * 200)
 
     print(outer_function(10)(5))

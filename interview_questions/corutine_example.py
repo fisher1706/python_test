@@ -9,10 +9,8 @@ def print_name(prefix):
             print(name)
 
 
-coroutine = print_name("Dear")
-coroutine.__next__()
-
-
 if __name__ == '__main__':
+    coroutine = print_name("Dear")
+    coroutine.__next__()
     coroutine.send("Atul")
     coroutine.send("Dear Atul")

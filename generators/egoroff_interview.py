@@ -73,11 +73,11 @@ if __name__ == '__main__':
     print(next(s))
     print(next(s))
     print(next(s))
-    print("*" * 200)
+    print("*" * 100)
 
     for i in fact(10):
-        print(i, end=' ')
+        print(i, end='\n')
 
-    print("*" * 200)
+    print("*" * 100)
 
     asyncio.run(main())

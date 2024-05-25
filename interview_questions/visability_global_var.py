@@ -65,7 +65,7 @@ candy = 5
 def global_example_candy():
     global candy
     candy += 1
-    print(f'I have - {candy} candy.')
+    print(f"I have - {candy} candy.")
 
 
 """
@@ -80,10 +80,11 @@ def nonlocal_example_candy():
         nonlocal candy_nonlocal
         candy_nonlocal += 1
         return candy_nonlocal
+
     return increment_candy
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     """
     local_example_one
     """
@@ -93,7 +94,7 @@ if __name__ == '__main__':
     """
     local_example_two
     """
-    element = 'q'
+    element = "q"
     local_example_two([1, 2, 3])
     print(element)
     print("*" * 300)
@@ -103,11 +104,11 @@ if __name__ == '__main__':
     """
     global_example_candy()
     global_example_candy()
-    print(f'candy: {candy}')
+    print(f"candy: {candy}")
     print("*" * 300)
 
     """
     nonlocal
     """
     result = nonlocal_example_candy()()
-    print(f'Total {result} candy.')
+    print(f"Total {result} candy.")

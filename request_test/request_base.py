@@ -196,47 +196,35 @@ HTML-формы на сервер для обработки. Они не кэш�
 
 import requests
 
-URL_GET = 'https://httpbin.org/get'
-URL_POST = 'https://httpbin.org/post'
+URL_GET = "https://httpbin.org/get"
+URL_POST = "https://httpbin.org/post"
 
-headers = {
-    "User-Agent": "zapel"
-}
+headers = {"User-Agent": "zapel"}
 
 """
 GET
 """
 
-resp_get = requests.get(
-    url=URL_GET,
-    headers=headers,
-    params={
-        'a': 'b',
-        'c': 'd'
-    }
-)
+resp_get = requests.get(url=URL_GET, headers=headers, params={"a": "b", "c": "d"})
 
 """
 POST
 """
 
 resp_post = requests.post(
-    url=URL_POST,
-    headers=headers,
-    params={'a': 'b'},
-    json={'username': 'supersecret'}
+    url=URL_POST, headers=headers, params={"a": "b"}, json={"username": "supersecret"}
 )
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     if resp_get.status_code == 200:
-        print('ok')
+        print("ok")
 
     if resp_get.ok:
-        print('ok')
+        print("ok")
 
     print(resp_get.raise_for_status())
     print(resp_get.text)
-    print(resp_get.json()['headers']['Host'])
-    print(resp_get.json()['headers'])
+    print(resp_get.json()["headers"]["Host"])
+    print(resp_get.json()["headers"])
 
     print(resp_post.json())

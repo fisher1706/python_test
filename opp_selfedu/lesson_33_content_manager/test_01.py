@@ -12,7 +12,7 @@ class DefenderVector:
         return False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = [1, 2, 3]
     # v2 = [1, 2, 3]
     v2 = [1, 2]

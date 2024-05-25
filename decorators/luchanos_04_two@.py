@@ -11,14 +11,17 @@ def second_outer(**dkwargs):
                 except ZeroDivisionError as err:
                     print(f"Error: {err}, attempts left: {attempts}")
                     attempts -= 1
+
         return inner
+
     return outer
 
 
 def simple_deco(func):
     def inner(*args, **kwargs):
-        print('message')
+        print("message")
         return func(*args, **kwargs)
+
     return inner
 
 
@@ -28,5 +31,5 @@ def div(a, b):
     return a / b
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(div(1, 1))

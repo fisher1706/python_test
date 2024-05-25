@@ -1,5 +1,6 @@
 class Point:
     """class for present points"""
+
     color = "red"
     circle = 1
 
@@ -8,7 +9,7 @@ class Point3D:
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(Point.__doc__)
     print(Point.__name__)
     print(Point.__dict__)
@@ -29,18 +30,18 @@ if __name__ == '__main__':
     print(Point.color)
     print(a.__dict__)
 
-    Point.type_pt = 'disc'
+    Point.type_pt = "disc"
     print(Point.__dict__)
 
-    setattr(Point, 'prop', 1)
+    setattr(Point, "prop", 1)
     print(Point.__dict__)
 
-    print(hasattr(Point, 'prop'))
+    print(hasattr(Point, "prop"))
 
     del Point.prop
     print(Point.__dict__)
 
-    print(getattr(Point, 'a', False))
+    print(getattr(Point, "a", False))
 
-    delattr(Point, 'type_pt')
+    delattr(Point, "type_pt")
     print(Point.__dict__)

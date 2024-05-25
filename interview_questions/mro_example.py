@@ -43,7 +43,7 @@ class D(B, C):
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(D.mro())
     print("*" * 300)
 

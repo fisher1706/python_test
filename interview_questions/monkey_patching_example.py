@@ -13,10 +13,11 @@ class MyBaseClass:
 def monkey_patch():
     def new_method(self):
         print("New method called")
+
     MyBaseClass.my_method = new_method
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     monkey_patch()
     obj = MyBaseClass()
     obj.my_method()

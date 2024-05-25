@@ -37,7 +37,7 @@ class Point3D:
         self._z = coord
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Point3D(1, 2, 3)
 
     p.x = 30
@@ -45,8 +45,3 @@ if __name__ == '__main__':
     print(p.__dict__)
 
     print(p)
-
-
-
-
-

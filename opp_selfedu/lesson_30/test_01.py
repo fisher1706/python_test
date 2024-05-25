@@ -11,5 +11,5 @@ def input_example():
         print("close")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     input_example()

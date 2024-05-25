@@ -24,7 +24,7 @@ class Student:
         del self.marks[key]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s1 = Student("oleg", [3, 5])
     print(s1.marks[0])
 

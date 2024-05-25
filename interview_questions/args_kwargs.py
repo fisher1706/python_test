@@ -12,6 +12,6 @@ def my_func_kwargs(a, b, **kwargs):
     print(a, b, kwargs)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_func_args(1, 2, 2, 4, 5)
     my_func_kwargs(1, 2, x=3, y=4, z=5)

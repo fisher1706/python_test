@@ -21,7 +21,7 @@ class Person:
         del self.__old
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person("oleg", 40)
     print(p.__dict__)
 

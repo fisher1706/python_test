@@ -13,11 +13,14 @@ sequence[start:end:step]
 """
 
 data = [1, 2, 3, 4, 5, 6, 7]
+s = slice(0, 5, 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(data[1:4])
     print(data[-3:])
     print(data[:-2])
     print(data[::-1])
     print(data[:])
+
+    print(data[s])

@@ -19,7 +19,6 @@ from abc import ABCMeta - используем для создания абст�
 а также облегчает поддержку и понимание проекта.
 """
 
-
 import abc
 
 
@@ -45,9 +44,26 @@ class Child(Parent):
         return self._parameters
 
 
-if __name__ == '__main__':
+class Shop(abc.ABC):
+    @abc.abstractmethod
+    def calc_revenue(self):
+        pass
+
+
+class ClothesShop(Shop):
+    def calc_revenue(self):
+        return self.shell_count * 5
+
+
+if __name__ == "__main__":
     ch = Child()
     print(ch.__dict__)
 
     ch.set_info("name", "Oleg")
     print(ch.__dict__)
+
+    cs = ClothesShop()
+    cs.shell_count = 20
+    print(cs.__dict__)
+    d = cs.calc_revenue()
+    print(d)

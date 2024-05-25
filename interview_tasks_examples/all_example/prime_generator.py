@@ -10,7 +10,7 @@ def prime_generator():
             yield number
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     prime_no = prime_generator()
 
     print(next(prime_no))

@@ -53,7 +53,7 @@ The set is an unordered collection of data types that is iterable, mutable and h
 A dictionary in Python is an ordered collection of data values, used to store data values like a map.
 
 7. What is List Comprehension? Give an Example.
-List comprehension is a syntax construction to ease the creation of a list based on existing iterable.
+List comprehension_and_generators is a syntax construction to ease the creation of a list based on existing iterable.
 
 For Example:
 my_list = [i for i in range(1, 10)]

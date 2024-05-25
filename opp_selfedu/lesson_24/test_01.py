@@ -23,7 +23,7 @@ class Rect(Geom):
         print("draw React")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     react = Rect(1, 2, 3, 4)
     print(react.__dict__)
 

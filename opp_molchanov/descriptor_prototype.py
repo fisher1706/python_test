@@ -23,9 +23,8 @@ class Person:
         self.surname = StringD(surname)
 
 
-
-if __name__ == '__main__':
-    p = Person('Ivan', 'Ivanoff')
+if __name__ == "__main__":
+    p = Person("Ivan", "Ivanoff")
 
     print(p.__dict__)
     print(dir(p))

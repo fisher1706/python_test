@@ -1,4 +1,4 @@
-binary_str = '110101'
+binary_str = "110101"
 
 
 def func_one(string=binary_str):
@@ -13,6 +13,6 @@ def func_two(string=binary_str):
     print(decimal_num)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     func_one()
     func_two()

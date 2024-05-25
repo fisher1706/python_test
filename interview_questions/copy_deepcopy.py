@@ -7,7 +7,7 @@ new_list = my_list.copy()
 deep_new_list = copy.deepcopy(my_list)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(f"id_my_list: = {id(my_list)}")
     print(f"id_el_my_list:= {id(my_list[3])}")
 

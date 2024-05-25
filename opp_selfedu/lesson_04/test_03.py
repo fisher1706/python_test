@@ -15,13 +15,13 @@ class Point:
             self.__x = x
             self.__y = y
         else:
-            print('Coords must be number!')
+            print("Coords must be number!")
 
     def get_coords(self):
         return self.__x, self.__y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(5, 10)
     print(pt.__dict__)
 

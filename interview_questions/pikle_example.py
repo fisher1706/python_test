@@ -12,28 +12,15 @@ import pickle
 
 
 # initializing data to be stored in db
-Omkar = {
-    'key': 'Omkar',
-    'name': 'Omkar Pathak',
-    'age': 21,
-    'pay': 40000
-}
+Omkar = {"key": "Omkar", "name": "Omkar Pathak", "age": 21, "pay": 40000}
 
-Jagdish = {
-    'key': 'Jagdish',
-    'name': 'Jagdish Pathak',
-    'age': 50,
-    'pay': 50000
-}
+Jagdish = {"key": "Jagdish", "name": "Jagdish Pathak", "age": 50, "pay": 50000}
 
 # database
-db = {
-    'Omkar': Omkar,
-    'Jagdish': Jagdish
-}
+db = {"Omkar": Omkar, "Jagdish": Jagdish}
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # For storing
     # type(b) gives <class 'bytes'>;
     b = pickle.dumps(db)

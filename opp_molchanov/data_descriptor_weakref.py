@@ -4,7 +4,6 @@ password: xau8ahPh
 lesson №20
 """
 
-
 from weakref import WeakKeyDictionary
 
 
@@ -26,8 +25,7 @@ class Vector:
     y = IntDescriptor()
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     v = Vector()
     print(hex(id(v)))
 

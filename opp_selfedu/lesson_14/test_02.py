@@ -9,7 +9,7 @@ class Point:
         return list(map(abs, self.__coords))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Point(1, 2)
     print(len(p))
 

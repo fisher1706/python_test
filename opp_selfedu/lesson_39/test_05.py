@@ -9,7 +9,7 @@ class V3D:
     length: float = field(init=False, compare=False, default=0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = V3D(1, 2, 3)
 
     print(v1)

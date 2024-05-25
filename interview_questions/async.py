@@ -87,5 +87,5 @@ async def main():
     await asyncio.gather(hello(), world())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())

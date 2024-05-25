@@ -14,6 +14,6 @@ def df_sin(x):
     return math.sin(x)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     df_sin = Derivate(df_sin)
-    print(df_sin(math.pi/4))
+    print(df_sin(math.pi / 4))

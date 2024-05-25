@@ -32,7 +32,7 @@ class Rect(Geom):
         print("draw React")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     line = Line(0, 0, 10, 20)
     print(line.__dict__)
     print("*" * 300)

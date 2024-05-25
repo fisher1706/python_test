@@ -40,12 +40,12 @@ map означает «отобразить».
 
 
 def process_number(num):
-    squared = num ** 2
+    squared = num**2
     subtracted = squared - 10
     return subtracted
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     numbers = [1, 2, 3, 4, 5]
     new_numbers = list(map(process_number, numbers))
     print(new_numbers)

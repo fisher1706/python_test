@@ -14,7 +14,7 @@ class Bank:
         cls.general_message = new_message
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     b1 = Bank()
     b2 = Bank()
 

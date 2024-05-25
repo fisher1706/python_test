@@ -12,7 +12,7 @@ class Point:
         return self.x == self.y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Point(3, 4)
     print(bool(p))
     print(len(p))

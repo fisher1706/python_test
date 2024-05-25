@@ -17,12 +17,8 @@ def replace(outer, num):
         print(i)
 
 
-if __name__ == '__main__':
-    data = [
-        [1, 2, 3],
-        [1, 5, 5],
-        [1, 4, 0]
-    ]
+if __name__ == "__main__":
+    data = [[1, 2, 3], [1, 5, 5], [1, 4, 0]]
 
     n = get_zero(data)
     print(n)

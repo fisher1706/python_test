@@ -9,6 +9,6 @@ class Cat:
         return self.name
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     cat = Cat("Zapel")
     print(cat)

@@ -26,7 +26,7 @@ class Point(metaclass=Meta):
         return 0, 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point()
 
     print(pt.MAX_COORD)

@@ -6,7 +6,7 @@ class Point:
         print(self.__dict__, str(self))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point()
     pt.set_coords()
 

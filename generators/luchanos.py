@@ -17,11 +17,11 @@ def func(n):
 
 
 def func_2():
-    print('go')
+    print("go")
     yield 1
-    print('get add')
+    print("get add")
     yield 2
-    print('go out')
+    print("go out")
 
 
 def func_3(n):
@@ -30,10 +30,10 @@ def func_3(n):
     while cnt < n:
         yield cnt
         cnt += 1
-    print('nothing')
+    print("nothing")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(func)
     print(func(10))
     print("*" * 200)
@@ -44,9 +44,9 @@ if __name__ == '__main__':
 
     c = func_2()
     print(next(c))
-    print('main thread')
+    print("main thread")
     print(next(c))
-    print('main thread')
+    print("main thread")
     # print(next(c))
     print("*" * 200)
 
@@ -62,12 +62,12 @@ if __name__ == '__main__':
         while True:
             next(d)
     except StopIteration:
-        print('finished')
+        print("finished")
 
     start = datetime.now()
-    print(f'start: {start}')
-    print(f'size: {sys.getsizeof(d)}')
-    print(f'finish: {datetime.now()}. work: {datetime.now() - start}')
+    print(f"start: {start}")
+    print(f"size: {sys.getsizeof(d)}")
+    print(f"finish: {datetime.now()}. work: {datetime.now() - start}")
     print("*" * 200)
 
     c = func_3(10)

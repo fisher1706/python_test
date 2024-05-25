@@ -6,8 +6,8 @@ class Person:
         print("Hello, my name is", self.name)
 
 
-if __name__ == '__main__':
-    p = Person('Oleg')
+if __name__ == "__main__":
+    p = Person("Oleg")
 
     print(p.__dict__)
 

@@ -9,7 +9,6 @@ def get_value():
         print("do [finally]")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a, b = get_value()
     print(a, b)
-    

@@ -3,7 +3,7 @@ def count_words(my_string):
     return len(words)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = "hello fisher"
     count = count_words(s)
     print(count)

@@ -33,8 +33,9 @@
 
 def outer(func):
     def inner(*args, **kwargs):
-        print('message')
+        print("message")
         return func(*args, **kwargs)
+
     return inner
 
 
@@ -48,16 +49,18 @@ def second_outer(*dargs, **dkwargs):
         def inner_two(*args, **kwargs):
             print(*dargs, **dkwargs)
             return func(*args, **kwargs)
+
         return inner_two
+
     return outer_two
 
 
-@second_outer('mess')
+@second_outer("mess")
 def div_two(a, b):
     return a / b
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(div(1, 2))
     print("*" * 200)
 

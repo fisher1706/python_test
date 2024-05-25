@@ -13,7 +13,7 @@ class Point:
 
 
 class Point2D:
-    __slots__ = ('x', 'y')
+    __slots__ = ("x", "y")
     MAX_COORD = 100
 
     def __init__(self, x, y):
@@ -26,7 +26,7 @@ class Point2D:
         self.y = 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(1, 2)
     pt2 = Point2D(10, 20)
 

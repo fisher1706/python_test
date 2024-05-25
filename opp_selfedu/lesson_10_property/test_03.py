@@ -14,6 +14,6 @@ class Person:
     old = old.getter(get_old)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person("oleg", 40)
     print(p.old, p.__dict__)

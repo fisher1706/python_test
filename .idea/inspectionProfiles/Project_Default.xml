@@ -19,12 +19,17 @@
       </option>
     </inspection_tool>
     <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E721" />
+        </list>
+      </option>
+    </inspection_tool>
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredIdentifiers">
         <list>
-          <option value="chromedriver.main_chrome.webdriver_manager" />
-          <option value="tests.api.user_management.test_subscription_price.dround" />
-          <option value="src.ui.actions.user_management_actions.user_management.User" />
+          <option value="int.*" />
         </list>
       </option>
     </inspection_tool>

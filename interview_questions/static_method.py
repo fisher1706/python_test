@@ -34,9 +34,8 @@ class ExampleClass:
         print("Это статический метод.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     ExampleClass.static_method()
 
     instance = ExampleClass()
     instance.static_method()
-    

@@ -13,7 +13,7 @@ class FRange:
             raise StopIteration
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fr = FRange(0, 2, 0.5)
 
     # print(fr.__next__())

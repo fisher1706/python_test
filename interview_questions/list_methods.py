@@ -1,6 +1,6 @@
 my_list = [1, 2, 3]
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_list.append(4)
     print(my_list)
 

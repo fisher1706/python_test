@@ -37,7 +37,7 @@ class Circle:
         del self._radius
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Использование
     c = Circle(5)
     print(c.radius)  # Вывод: 5

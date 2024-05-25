@@ -8,7 +8,7 @@ class Vector:
 
     @staticmethod
     def norm_two(x, y):
-        return x*x + y*y
+        return x * x + y * y
 
     def __init__(self, x, y):
         self.x = self.y = 0
@@ -22,7 +22,7 @@ class Vector:
         return self.x, self.y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v = Vector(1, 2)
 
     res_one = v.get_coord()
@@ -36,5 +36,3 @@ if __name__ == '__main__':
 
     print(Vector.norm_two(5, 6))
     print(v.norm_two(3, 4))
-
-

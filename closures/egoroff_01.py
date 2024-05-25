@@ -3,14 +3,14 @@
 
 def main_func_one():
     def inner_func():
-        print('hello my friend')
+        print("hello my friend")
 
     inner_func()
 
 
 def main_func_two(name):
     def inner_func():
-        print('hello my friend', name)
+        print("hello my friend", name)
 
     return inner_func
 
@@ -33,11 +33,11 @@ def counter():
     return inner
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(f"a: {main_func_one()}")
     print("*" * 200)
 
-    b = main_func_two('oleg')
+    b = main_func_two("oleg")
     print(f"b: {b}")
     b()
     print("*" * 200)

@@ -27,7 +27,6 @@ Threading - это механизм, который позволяет созд�
 Пример использования threading:
 """
 
-
 import threading
 
 
@@ -35,8 +34,7 @@ def worker():
     print("Hello from thread")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Создание и запуск потока
     t = threading.Thread(target=worker)
     t.start()
-    

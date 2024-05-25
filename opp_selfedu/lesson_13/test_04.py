@@ -15,5 +15,5 @@ def df_sin(x):
     return math.sin(x)
 
 
-if __name__ == '__main__':
-    print(df_sin(math.pi/4))
+if __name__ == "__main__":
+    print(df_sin(math.pi / 4))

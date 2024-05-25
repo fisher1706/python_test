@@ -8,7 +8,7 @@ def func_one(data):
     index.sort()
 
     for i in range(1, len(index)):
-        out.append((data[index[i - 1]:index[i]]).lower())
+        out.append((data[index[i - 1] : index[i]]).lower())
 
     return tuple(out)
 
@@ -24,7 +24,7 @@ def func_two(data, func=func_one):
     return tuple(out)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     val = "PythonIsGreat"
     val_big = "PythonIsGreat,LinuxIsAwesome"
 

@@ -7,10 +7,10 @@ def reverse_words(my_string: str, symbols: list) -> str:
         if word[-1] in symbols:
             new_world = word[-2::-1] + word[-1]
         result.append(new_world)
-    return ' '.join(result)
+    return " ".join(result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     start_string = "Don't worry, be happy!"
     find_symbols = [".", ",", "!", "?"]
     r = reverse_words(start_string, find_symbols)

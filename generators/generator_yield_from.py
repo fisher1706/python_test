@@ -21,7 +21,7 @@ def two_ranges(start, stop):
     yield from one_range(start, stop)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     g = one_range(0, 3)
 
     print(next(g))

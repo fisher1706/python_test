@@ -21,11 +21,8 @@ class Person:
     # name = name.setter(set_name)
 
 
-
-
-
-if __name__ == '__main__':
-    p = Person('Dima')
+if __name__ == "__main__":
+    p = Person("Dima")
     print(p.name)
 
-    print(Person('Dima').name)
+    print(Person("Dima").name)

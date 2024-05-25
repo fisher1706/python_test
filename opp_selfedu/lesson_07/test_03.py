@@ -2,6 +2,7 @@
 _ - protested
 __ - private
 """
+
 from accessify import private, protected
 
 
@@ -28,6 +29,6 @@ class Point:
         return self.__x, self.__y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(1, 2)
     pt.check_value(5)

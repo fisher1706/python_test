@@ -8,7 +8,7 @@ lesson №14
 
 class IntelCpu:
     cpu_socket = 1151
-    name = 'Intel'
+    name = "Intel"
 
 
 class I7(IntelCpu):
@@ -19,15 +19,13 @@ class I5(IntelCpu):
     pass
 
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     x = I5()
 
     print(x.__dict__)
     print(x.name, x.cpu_socket)
 
-    x.name = '123'
+    x.name = "123"
     print(x.__dict__)
     print(type(x))
 
@@ -47,4 +45,3 @@ if __name__ == '__main__':
     print(d)
 
     print(issubclass(I5, IntelCpu))
-

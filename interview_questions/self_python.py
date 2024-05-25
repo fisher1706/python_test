@@ -35,10 +35,10 @@ class Person:
         print(f"Hello {self.name}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_object = MyClass(10)
     my_object.show_value()
     print("*" * 200)
 
-    person = Person('John')
+    person = Person("John")
     person.say_hello()

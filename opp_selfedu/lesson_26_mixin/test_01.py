@@ -35,7 +35,7 @@ class NoteBook(Goods, MixinLog):
         MixinLog.print_info(self)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = NoteBook("Acer", 1.5, 30000)
     n.save_sell_log()
     n.print_info()

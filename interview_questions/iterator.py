@@ -34,7 +34,6 @@ yield - замораживает итерацию и при повторном �
 а также в различных структурах данных и алгоритмах.
 """
 
-
 my_list = [1, 2, 3, 4, 5]
 my_iterator_one = iter(my_list)
 
@@ -66,7 +65,7 @@ class MyIterator:
         return result
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(next(my_iterator_one))
     print(next(my_iterator_one))
     print(next(my_iterator_one))

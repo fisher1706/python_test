@@ -16,7 +16,7 @@ class Women:
             self._t = Women.title
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(Women.ordering)
     print(Women.Meta.ordering)
     print("*" * 200)

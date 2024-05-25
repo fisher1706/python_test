@@ -37,7 +37,7 @@ class Point:
         object.__delattr__(self, item)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt1 = Point(1, 2)
     print(pt1.y)
 

@@ -10,28 +10,27 @@ class Person:
         self._name = name
 
     def get_name(self):
-        print('From get_name()')
+        print("From get_name()")
         return self._name
 
     def set_name(self, value):
-        print('From set_name()')
+        print("From set_name()")
         self._name = value
 
     # name = property(fget=get_name, fset=set_name)
 
     name = property()
-    print('type name:', type(name))
+    print("type name:", type(name))
 
     name = name.getter(get_name)
     name = name.setter(set_name)
 
 
-if __name__ == '__main__':
-    p = Person('Dima')
+if __name__ == "__main__":
+    p = Person("Dima")
 
     print(p.__dict__)
     print(p.name)
 
-    p.name = 'Oleg'
+    p.name = "Oleg"
     print(p.name)
-

@@ -5,17 +5,16 @@ lesson №18
 lesson №19
 """
 
-
 from time import time
 
 
 class Epoch:
     def __get__(self, instance, owner_class):
-        print(f'id of self: {id(self)}')
+        print(f"id of self: {id(self)}")
 
-        print(f'Self: {self}')
-        print(f'Instance: {instance}')
-        print(f'Owner class: {owner_class}')
+        print(f"Self: {self}")
+        print(f"Instance: {instance}")
+        print(f"Owner class: {owner_class}")
 
         if instance is None:
             return self
@@ -29,7 +28,7 @@ class MyTime:
     epoch = Epoch()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     m1 = MyTime()
     print(m1.epoch)
 
@@ -37,13 +36,3 @@ if __name__ == '__main__':
     print(m2.epoch)
 
     print(MyTime.epoch)
-
-
-
-
-
-
-
-
-
-

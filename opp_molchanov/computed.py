@@ -32,16 +32,12 @@ class Person:
     @property
     def full_name(self):
         if self._full_name is None:
-            self._full_name = f'{self._name} {self._surname}'
+            self._full_name = f"{self._name} {self._surname}"
         return self._full_name
 
 
-
-
-
-
-if __name__ == '__main__':
-    p = Person('oleg', 'zapel')
+if __name__ == "__main__":
+    p = Person("oleg", "zapel")
 
     x = p.full_name
     print(x)

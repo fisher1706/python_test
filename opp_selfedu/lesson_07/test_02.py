@@ -2,6 +2,7 @@
 _ - protested
 __ - private
 """
+
 from pprint import pprint
 
 
@@ -27,7 +28,7 @@ class Point:
         return self.__x, self.__y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(1, 2)
     pt.set_coord(10, 20)
     print(pt.get_coord())

@@ -10,7 +10,7 @@ def change_second(var1, var2):
     print(f"x:={var1}, y:={var2}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     x = 3
     y = 4
 

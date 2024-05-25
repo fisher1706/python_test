@@ -8,7 +8,7 @@ my_list = [1, 2, 3]
 new_list = [1, 2, 3]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(my_list == new_list)
     print(my_list is new_list)
     print("*" * 300)

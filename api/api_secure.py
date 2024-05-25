@@ -44,7 +44,7 @@ Regularly updating software dependencies is important to mitigate risks from vul
 
 🔹 𝗟𝗼𝗴𝗴𝗶𝗻𝗴 𝗮𝗻𝗱 𝗺𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴
 
-Investing in comprehensive logging and real-time monitoring is vital for early detection of suspicious activities,
+Investing in comprehensive log_example and real-time monitoring is vital for early detection of suspicious activities,
 enabling swift incident response to mitigate security breaches.
 
 🔹𝗔𝗣𝗜 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗶𝗻𝗴

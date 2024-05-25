@@ -17,8 +17,8 @@ A = type(
         "MAX_COORD": 100,
         "MIN_COORD": 0,
         "method1": method_1,
-        "method2": lambda self: print(self.MAX_COORD)
-    }
+        "method2": lambda self: print(self.MAX_COORD),
+    },
 )
 
 
@@ -30,7 +30,7 @@ class A:
     MIN_COORD = 0  
 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = A()
 
     print(pt.MAX_COORD)

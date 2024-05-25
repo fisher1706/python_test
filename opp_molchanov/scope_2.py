@@ -6,19 +6,17 @@ lesson №10
 
 
 class Person:
-    name = 'Dima'
+    name = "Dima"
 
     @classmethod
     def change_name(cls, name):
         cls.name = name
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person()
     print(p.__dict__)
-    p.change_name('zapel')
+    p.change_name("zapel")
 
-    print('instance dict: ', p.__dict__)
-    print('person.name: ', Person.name)
-
-
+    print("instance dict: ", p.__dict__)
+    print("person.name: ", Person.name)

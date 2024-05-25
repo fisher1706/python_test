@@ -4,12 +4,11 @@ password: xau8ahPh
 lesson №10
 """
 
-
-name = 'Ivan'
+name = "Ivan"
 
 
 class Person:
-    name = 'Dima'
+    name = "Dima"
 
     def print_name_1(self):
         print(name)
@@ -18,8 +17,7 @@ class Person:
         print(self.name)
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person()
 
     p.print_name_1()
@@ -28,8 +26,6 @@ if __name__ == '__main__':
     print(p.__dict__)
     p.print_name_2()
 
-    p.name = 'zapel'
-    print('instance dict: ', p.__dict__)
-    print('person.name: ', Person.name)
-
-
+    p.name = "zapel"
+    print("instance dict: ", p.__dict__)
+    print("person.name: ", Person.name)

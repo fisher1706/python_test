@@ -28,12 +28,18 @@ class Duck:
         self.tail = tail
 
     def about(self):
-        print('This duck has a', self.bill.description, 'bill and a', self.tail.length, 'tail')
+        print(
+            "This duck has a",
+            self.bill.description,
+            "bill and a",
+            self.tail.length,
+            "tail",
+        )
 
 
-if __name__ == '__main__':
-    t = Tail('long')
-    b = Bill('wide orange')
+if __name__ == "__main__":
+    t = Tail("long")
+    b = Bill("wide orange")
     duck = Duck(b, t)
 
     duck.about()

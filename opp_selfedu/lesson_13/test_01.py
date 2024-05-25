@@ -8,7 +8,7 @@ class Counter:
         return self.__counter
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     c1 = Counter()
     c1()
     c1()
@@ -19,5 +19,3 @@ if __name__ == '__main__':
     c2 = Counter()
     res2 = c2()
     print(res2)
-
-

@@ -7,14 +7,14 @@ lesson №19
 
 class IntDescriptor:
     def __set__(self, instance, value):
-        print(f'I got {value}')
+        print(f"I got {value}")
         self._value = value
 
     def __get__(self, instance, owner):
         if instance is None:
-            print('Call from a class')
+            print("Call from a class")
             return self
-        print('Call from instance')
+        print("Call from instance")
         return self._value
 
 
@@ -23,7 +23,7 @@ class Vector:
     y = IntDescriptor()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = Vector()
     v1.x = 10
     print(v1.x)
@@ -35,8 +35,3 @@ if __name__ == '__main__':
     v2.x = 20
     print(v2.x)
     print(v1.x)
-
-
-
-
-

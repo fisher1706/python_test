@@ -4,20 +4,22 @@
 def adv_deco(password):
     def adv_deco_inner(my_class):
         def inner(*args, **kwargs):
-            if password != 'zapel':
+            if password != "zapel":
                 print("Error!")
                 raise ValueError("Bad password")
             else:
                 print("message")
             return my_class(*args, **kwargs)
+
         return inner
+
     return adv_deco_inner
 
 
-@adv_deco(password='zapel')
+@adv_deco(password="zapel")
 class MyClass:
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     obj = MyClass()

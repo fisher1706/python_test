@@ -87,8 +87,8 @@ class Person:
         self.__ps = ps
 
 
-if __name__ == '__main__':
-    person = Person("zapel fisher flagman", 20, '2117 789970', 80.00)
+if __name__ == "__main__":
+    person = Person("zapel fisher flagman", 20, "2117 789970", 80.00)
 
     # print(person.old)
     # person.old = 50

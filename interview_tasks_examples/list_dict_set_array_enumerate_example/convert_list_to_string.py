@@ -1,5 +1,8 @@
 xs = [1, 2, 3]
-s = ''.join(str(x) for x in xs)
+s = "".join(str(x) for x in xs)
 
-if __name__ == '__main__':
+b = " marries ".join(list(["Alice", "Bob"]))
+
+if __name__ == "__main__":
     print(s)
+    print(b)

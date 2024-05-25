@@ -10,7 +10,7 @@ class Person:
         self.__old = old
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person("oleg", 40)
     p.set_old(30)
     print(p.get_old())

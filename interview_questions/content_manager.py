@@ -39,9 +39,9 @@ class FileHandler:
             self.file.close()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Использование контекстного менеджера
-    with FileHandler('example.txt', 'w') as f:
-        f.write('Привет, мир!')
+    with FileHandler("example.txt", "w") as f:
+        f.write("Привет, мир!")
 
     # После выхода из блока with файл автоматически закрывается

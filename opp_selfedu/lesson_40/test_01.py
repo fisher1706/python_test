@@ -17,7 +17,7 @@ class Book(Goods):
     weight: int | float = 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     b1 = Book(1)
     print(b1)
 

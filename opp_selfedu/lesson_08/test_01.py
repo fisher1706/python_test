@@ -18,7 +18,7 @@ class Point:
         cls.MIN_COORD = left
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pprint(Point.__dict__)
     pt1 = Point(1, 2)
     pt2 = Point(10, 20)

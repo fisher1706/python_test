@@ -54,20 +54,20 @@ def fact(n):
 
 
 async def fetch_data():
-    print('Start fetching')
+    print("Start fetching")
     await asyncio.sleep(2)  # Имитация асинхронной задачи, например, запроса к серверу
-    print('Done fetching')
-    return {'data': 1}
+    print("Done fetching")
+    return {"data": 1}
 
 
 async def main():
-    print('Before fetching')
+    print("Before fetching")
     result = await fetch_data()
-    print('Result:', result)
-    print('After fetching')
+    print("Result:", result)
+    print("After fetching")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = my_gen()
     print(s)
     print(next(s))
@@ -76,7 +76,7 @@ if __name__ == '__main__':
     print("*" * 100)
 
     for i in fact(10):
-        print(i, end='\n')
+        print(i, end="\n")
 
     print("*" * 100)
 

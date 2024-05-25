@@ -4,7 +4,6 @@ password: xau8ahPh
 lesson №18
 """
 
-
 from random import choice
 
 
@@ -14,18 +13,19 @@ class Choise:
 
     def __get__(self, obj, owner):
 
-        print(f'Self: {self}')
-        print(f'obj: {obj}')
-        print(f'owner: {owner}')
+        print(f"Self: {self}")
+        print(f"obj: {obj}")
+        print(f"owner: {owner}")
 
         return choice(self._choise)
 
+
 class Game:
     dice = Choise(1, 2, 3, 4, 5, 6)
-    flip = Choise('Heads', 'Tails')
+    flip = Choise("Heads", "Tails")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     g = Game()
 
     x = g.flip

@@ -5,6 +5,5 @@ def total_marks(**kwargs):
     return total
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(total_marks(maths=80, science=90, english=80))
-    

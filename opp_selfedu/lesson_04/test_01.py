@@ -2,7 +2,7 @@
 
 
 class Point:
-    color = 'red'
+    color = "red"
     circle = 2
 
     def __init__(self, x=0, y=0):
@@ -20,7 +20,7 @@ class Point:
         return self.x, self.y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(5, 10)
     print(pt.__dict__)
     print(pt.x, pt.y)

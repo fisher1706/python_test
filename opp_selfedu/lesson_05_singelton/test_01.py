@@ -9,6 +9,6 @@ class Point:
         self.y = y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point(1, 2)
     print(f"pt: {pt}")

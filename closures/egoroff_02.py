@@ -41,7 +41,7 @@ def counter(func):
     return inner
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     r1 = average_number()
     print(f"r1: {r1}")
     print(f"average: {r1(5)}")

@@ -40,7 +40,7 @@ class Singleton:
         return cls.__instance
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Создание экземпляра класса Person
     person1 = Person("Алексей", 30)
     print(f"Имя: {person1.name}, Возраст: {person1.age}")
@@ -50,6 +50,8 @@ if __name__ == '__main__':
     singleton1 = Singleton()
     singleton2 = Singleton()
 
-    print(singleton1 is singleton2)  # Вернет True, так как оба объекта являются одним и тем же экземпляром
+    print(
+        singleton1 is singleton2
+    )  # Вернет True, так как оба объекта являются одним и тем же экземпляром
     print(id(singleton1))
     print(id(singleton2))

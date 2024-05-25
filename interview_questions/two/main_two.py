@@ -16,5 +16,5 @@ def calc(a, b):
     print(a + b)
 
 
-if __name__ == '__main__':
-    print_sey_hello(var='Zapel')
+if __name__ == "__main__":
+    print_sey_hello(var="Zapel")

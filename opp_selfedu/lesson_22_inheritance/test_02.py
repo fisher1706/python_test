@@ -3,7 +3,7 @@ class Vector(list):
         return " ".join(map(str, self))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v = Vector([1, 2, 3])
 
     print(v)

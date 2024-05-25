@@ -31,7 +31,7 @@ def multiply(x, y):
     return x * y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     numbers = [1, 2, 3, 4, 5]
 
     result_add = reduce(add, numbers, 0)

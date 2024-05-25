@@ -6,6 +6,6 @@ def odd(number):
     return out
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     x = odd(23)
     print(x)

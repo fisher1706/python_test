@@ -44,7 +44,7 @@ class ThingData:
 __init()__, __repr__, __eq__
 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     t_1 = Thing("interview_questions", 100, 1024)
     print(t_1)
 
@@ -67,4 +67,3 @@ if __name__ == '__main__':
 
     td_3 = ThingData("zapel", 1000)
     print(td_3.__dict__)
-

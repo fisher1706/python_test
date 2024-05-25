@@ -35,7 +35,7 @@ class Book(Goods):
         print("Book: post_init")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     b1 = Book(1)
     print(b1)
 

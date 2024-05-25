@@ -4,7 +4,6 @@ password: xau8ahPh
 lesson №20
 """
 
-
 import weakref
 
 
@@ -12,7 +11,7 @@ class Person:
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person()
     print(p)
 
@@ -25,5 +24,3 @@ if __name__ == '__main__':
     print(w())
 
     p = Person()
-
-

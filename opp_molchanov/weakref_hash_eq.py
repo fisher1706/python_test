@@ -16,9 +16,6 @@ class Person:
         return hash(self.name)
 
 
-
-if __name__ == '__main__':
-    p = Person('Ivan')
+if __name__ == "__main__":
+    p = Person("Ivan")
     print(hash(p))
-
-

@@ -14,7 +14,7 @@ class V3D:
             self.length = (self.x * self.x + self.y * self.y + self.z * self.z) ** 0.5
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = V3D(1, 2, 3)
     v2 = V3D(1, 2, 5)
 

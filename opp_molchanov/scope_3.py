@@ -6,7 +6,7 @@ lesson №10
 
 
 class Config:
-    name = 'Igor'
+    name = "Igor"
     # pass
 
 
@@ -22,18 +22,17 @@ class Person:
 
     @classmethod
     def from_obj(cls, obj):
-        if hasattr(obj, 'name'):
-            name = getattr(obj, 'name')
+        if hasattr(obj, "name"):
+            name = getattr(obj, "name")
             return cls(name=name)
         return cls
 
 
-
-if __name__ == '__main__':
-    path = 'text_scope.txt'
+if __name__ == "__main__":
+    path = "text_scope.txt"
     print(Config.__dict__)
 
-    p = Person('oleg')
+    p = Person("oleg")
     print(p.__dict__)
 
     d = Person.from_file(path)
@@ -41,6 +40,3 @@ if __name__ == '__main__':
 
     z = Person.from_obj(Config)
     print(z.__dict__)
-
-
-

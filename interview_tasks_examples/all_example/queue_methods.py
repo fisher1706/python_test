@@ -4,19 +4,19 @@ from queue import Queue
 q = Queue(maxsize=3)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # qsize() give the maxsize of the Queue
-    print(f'size = {q.qsize()}')
+    print(f"size = {q.qsize()}")
 
     # Adding of element to queue
-    q.put('a')
-    print(f'queue = {q}')
+    q.put("a")
+    print(f"queue = {q}")
 
     # Return Boolean for Full Queue
-    print(f'full = {q.full()}')
+    print(f"full = {q.full()}")
 
     # Removing element from queue
-    print(f'get = {q.get()}')
+    print(f"get = {q.get()}")
 
     # Return Boolean for Empty Queue
-    print(f'empty = {q.empty()}')
+    print(f"empty = {q.empty()}")

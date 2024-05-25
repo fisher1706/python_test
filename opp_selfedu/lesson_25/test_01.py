@@ -30,7 +30,7 @@ class Triangle(Geom):
     #     return self.a + self.b + self.c
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     r1 = Rectangle(1, 2)
     r2 = Rectangle(3, 4)
 

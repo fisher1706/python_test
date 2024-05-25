@@ -9,6 +9,6 @@ def bubble_sort(array):
     return array
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = [1, 8, 9, 4, 7]
     print(bubble_sort(a))

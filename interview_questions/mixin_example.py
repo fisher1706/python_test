@@ -20,6 +20,7 @@
 class JsonMixin:
     def to_json(self):
         import json
+
         return json.dumps(self.__dict__)
 
 
@@ -29,10 +30,14 @@ class Person:
         self.age = age
 
 
-class PersonJson(JsonMixin, Person):  # Использование миксина для добавления функциональности сериализации в JSON
+class PersonJson(
+    JsonMixin, Person
+):  # Использование миксина для добавления функциональности сериализации в JSON
     pass
 
 
-if __name__ == '__main__':
-    p = PersonJson('Oleg', 25)
-    print(p.to_json())  # Выведет строку в формате JSON, представляющую объект PersonJson
+if __name__ == "__main__":
+    p = PersonJson("Oleg", 25)
+    print(
+        p.to_json()
+    )  # Выведет строку в формате JSON, представляющую объект PersonJson

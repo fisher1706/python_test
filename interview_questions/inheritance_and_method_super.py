@@ -32,7 +32,7 @@ class A:
 class B(A):
     def __init__(self, param):
         super().__init__(param)
-        self.URL = 'localhost'
+        self.URL = "localhost"
 
 
 class Parent:
@@ -46,7 +46,7 @@ class Child(Parent):
         self.child_attribute = "Child attribute"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     b = B(100)
     print(b.__dict__)
     b.connect()

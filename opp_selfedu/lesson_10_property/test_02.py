@@ -12,7 +12,7 @@ class Person:
     old = property(get_old, set_old)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p = Person("oleg", 40)
     p.__dict__["old"] = "old in object p"
     a = p.old

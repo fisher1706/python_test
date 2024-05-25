@@ -1,15 +1,10 @@
 import json
 
 
-data = {
-    "president": {
-        "name": "Zaphod Beeblebrox",
-        "species": "Betelgeusian"
-    }
-}
+data = {"president": {"name": "Zaphod Beeblebrox", "species": "Betelgeusian"}}
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     json_string = json.dumps(data)
     new_data = json.loads(json_string)
 

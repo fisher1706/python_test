@@ -12,7 +12,7 @@ class Dog(Animal):  # Наследование класса Animal
         return "Гав"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Создание объекта класса Dog
     my_dog = Dog("Бобик", 5)
     print(my_dog.speak())  # Вывод: Гав

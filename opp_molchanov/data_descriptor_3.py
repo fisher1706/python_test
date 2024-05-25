@@ -4,7 +4,6 @@ password: xau8ahPh
 lesson №19
 """
 
-
 import ctypes
 
 
@@ -30,8 +29,7 @@ def ref_count(obj_id):
     return ctypes.c_long.from_address(obj_id).value
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = Vector()
     print(v1.x)
 
@@ -45,7 +43,6 @@ if __name__ == '__main__':
     print(v2.x)
 
     print(Vector.x._values)
-
 
     v3 = Vector()
     ref_count_start = ref_count(id(v3))
@@ -62,8 +59,3 @@ if __name__ == '__main__':
 
     del v3
     print(ref_count(id_v))
-
-
-
-
-

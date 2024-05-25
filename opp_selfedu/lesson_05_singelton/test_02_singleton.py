@@ -4,6 +4,7 @@ class DataBase:
     """
     singleton -> methods: __new__, __del__
     """
+
     def __new__(cls, *args, **kwargs):
         if cls.__instance is None:
             cls.__instance = super().__new__(cls)
@@ -33,9 +34,9 @@ class DataBase:
         print(f"write data to DB {data}")
 
 
-if __name__ == '__main__':
-    db_one = DataBase('root', '1234', 80)
-    db_two = DataBase('user', '5678', 40)
+if __name__ == "__main__":
+    db_one = DataBase("root", "1234", 80)
+    db_two = DataBase("user", "5678", 40)
 
     print(id(db_one), id(db_two))
 

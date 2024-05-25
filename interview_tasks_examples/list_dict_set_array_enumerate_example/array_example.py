@@ -15,7 +15,7 @@ def approach_two(rows, cols):
     pprint(matrix)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     m = []
     rs = 5
     cs = 5

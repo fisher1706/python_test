@@ -33,7 +33,7 @@ class FRange2D:
             raise StopIteration
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     fr = FRange(0, 2, 0.5)
     for x in fr:
         print(x)

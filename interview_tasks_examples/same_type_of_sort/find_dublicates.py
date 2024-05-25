@@ -15,7 +15,7 @@ def get_duplicates(example_list):
 
 
 """
-check dublicates
+check duplicates
 """
 
 
@@ -23,7 +23,7 @@ def check_duplicates(example_list):
     return len(example_list) != len(set(example_list))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     example_one = [1, 1, 1, 4, 2, 5]
     n, d = get_duplicates(example_one)
     print(n, d)

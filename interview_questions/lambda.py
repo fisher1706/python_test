@@ -10,7 +10,11 @@ numbers = [1, 2, 3, 4, 5]
 squares = list(map(lambda x: x**2, numbers))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(squares)
+    print("*" * 200)
 
     print((lambda x, y: x + y)(1, 2))
+    print("*" * 200)
+
+    print(sorted([8, 3, 2, 42, 5], key=lambda x: 0 if x == 42 else x))

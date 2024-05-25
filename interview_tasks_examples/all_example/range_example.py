@@ -5,7 +5,6 @@ def range_example(num: int) -> int:
     return out
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     x = range_example(10)
     print(x)
-    

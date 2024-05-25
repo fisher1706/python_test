@@ -27,7 +27,7 @@ class PrintData:
         return False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pd = PrintData()
 
     try:

@@ -33,6 +33,6 @@ class Women(metaclass=Meta):
     photo = "way photo"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     w = Women()
     print(w.__dict__)

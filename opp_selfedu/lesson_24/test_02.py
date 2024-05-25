@@ -24,7 +24,7 @@ class Rect(Geom):
         return self._x1, self._y1, self._x2, self._y2
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     rect = Rect(1, 2, 3, 4)
     print(rect.__dict__)
 

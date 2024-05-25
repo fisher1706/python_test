@@ -12,6 +12,6 @@ def check_prime_number(number):
         print("not prime")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = 8
     check_prime_number(n)

@@ -5,14 +5,14 @@ lesson №8
 lesson №9
 """
 
-
 from datetime import datetime
 import pytz
 
 
-WHITE = '\033[00m'
-GREEN = '\033[0;32m'
-RED = '\033[1;31m'
+WHITE = "\033[00m"
+GREEN = "\033[0;32m"
+RED = "\033[1;31m"
+
 
 class Account:
     def __init__(self, name, balance):
@@ -32,32 +32,30 @@ class Account:
     def withdraw(self, amount):
         if self.__balance > amount:
             self.__balance -= amount
-            print(f'You spent {amount} units')
+            print(f"You spent {amount} units")
             self.show_balance()
             self._history.append([-amount, self._get_current_time()])
         else:
-            print('Not enough money')
+            print("Not enough money")
             self.show_balance()
 
     def show_balance(self):
-        print(f'Balance: {self.__balance}')
+        print(f"Balance: {self.__balance}")
 
     def show_history(self):
         for amount, date in self._history:
             if amount > 0:
-                transaction = 'deposited'
+                transaction = "deposited"
                 color = GREEN
             else:
-                transaction = 'withdraw'
+                transaction = "withdraw"
                 color = RED
 
-            print(f'{color} {amount} {WHITE} {transaction} on {date}')
+            print(f"{color} {amount} {WHITE} {transaction} on {date}")
 
 
-
-
-if __name__ == '__main__':
-    a = Account('oleg', 0)
+if __name__ == "__main__":
+    a = Account("oleg", 0)
 
     a.deposit(100)
     a.deposit(100)
@@ -73,13 +71,3 @@ if __name__ == '__main__':
     print(a.__dict__)
 
     a.show_history()
-
-
-
-
-
-
-
-
-
-

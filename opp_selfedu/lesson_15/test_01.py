@@ -3,7 +3,7 @@ class Clock:
 
     def __init__(self, seconds: int):
         if not isinstance(seconds, int):
-            raise ValueError('secs must be int')
+            raise ValueError("secs must be int")
         self.seconds = seconds % self.__DAY
 
     def get_time(self):
@@ -11,7 +11,7 @@ class Clock:
         m = (self.seconds // 60) % 60
         h = (self.seconds // 3600) % 24
 
-        return f'{Clock.__get_formatted(h)}:{Clock.__get_formatted(m)}:{Clock.__get_formatted(s)}'
+        return f"{Clock.__get_formatted(h)}:{Clock.__get_formatted(m)}:{Clock.__get_formatted(s)}"
 
     @classmethod
     def __get_formatted(cls, x):
@@ -23,7 +23,7 @@ class Clock:
     def __add__(self, other):
         print("__add__")
         if not isinstance(other, (int, Clock)):
-            raise ArithmeticError('right part must be type Clock or int')
+            raise ArithmeticError("right part must be type Clock or int")
         sc = other
         if isinstance(other, Clock):
             sc = other.seconds
@@ -35,7 +35,7 @@ class Clock:
     def __iadd__(self, other):
         print("__iadd__")
         if not isinstance(other, (int, Clock)):
-            raise ArithmeticError('right part must be type Clock or int')
+            raise ArithmeticError("right part must be type Clock or int")
         sc = other
         if isinstance(other, Clock):
             sc = other.seconds
@@ -43,7 +43,7 @@ class Clock:
         return self
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     c1 = Clock(8000)
     c2 = Clock(1000)
 

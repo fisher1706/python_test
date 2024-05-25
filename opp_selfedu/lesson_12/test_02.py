@@ -33,7 +33,7 @@ class Point3D:
         self.z = z
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # p = Point3D(1, '2', 3)
     p = Point3D(1, 2, 3)
 

@@ -9,6 +9,7 @@ def func_wrapper_time(func):
         delta_time = datetime.now() - statr
         print(f"execution_time: {delta_time}")
         return result
+
     return wrapper
 
 
@@ -22,7 +23,6 @@ def func_2():
     time.sleep(2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     func_1()
     func_2()
-

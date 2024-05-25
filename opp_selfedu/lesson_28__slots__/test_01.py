@@ -1,5 +1,5 @@
 class Point2D:
-    __slots__ = ('x', 'y', '__length')
+    __slots__ = ("x", "y", "__length")
 
     def __init__(self, x, y):
         self.x = x
@@ -15,10 +15,9 @@ class Point2D:
         self.__length = value
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point2D(1, 2)
     print(pt.length)
 
     pt.length = 10
     print(pt.length)
-    

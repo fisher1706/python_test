@@ -10,7 +10,7 @@ class Point:
         return hash((self.x, self.y))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     p1 = Point(1, 2)
     p2 = Point(1, 2)
 

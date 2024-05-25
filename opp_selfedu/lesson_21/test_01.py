@@ -32,7 +32,7 @@ class React(Geom):
         print("draw React")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     line = Line()
     rect = React()
 

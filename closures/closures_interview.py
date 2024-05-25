@@ -13,6 +13,7 @@
 def outer_function(x):
     def inner_function(y):
         return x + y
+
     return inner_function
 
 
@@ -27,8 +28,9 @@ inner_function и хранит значение x как 10.
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     closures = outer_function(10)
+    print(closures.__closure__)
     print(closures.__name__)
     print(closures(5))
     print(closures(10))

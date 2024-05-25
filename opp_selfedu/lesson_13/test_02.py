@@ -9,7 +9,7 @@ class StripChars:
         return args[0].strip(self.__chars)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = StripChars("?:!.; ")
     res = s(" Hello World! ")
     print(res)

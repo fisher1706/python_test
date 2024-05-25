@@ -22,7 +22,7 @@ class MyDictionary:
         return self.value[index]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     d = MyDictionary(10)
 
     d["apple"] = "red"

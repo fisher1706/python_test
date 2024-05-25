@@ -8,7 +8,7 @@ def open_file(name):
         print("close")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     open_file("my_file.txt")
     print("*" * 200)
 

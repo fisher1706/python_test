@@ -10,7 +10,7 @@ class Point:
         return self.x, self.y
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     pt = Point()
     print(pt.__dict__)
 

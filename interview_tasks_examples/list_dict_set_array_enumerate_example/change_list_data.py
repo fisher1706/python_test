@@ -12,7 +12,7 @@ def change_data_list(my_list: list) -> list:
     return out_list
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     old_list = [15, 7, 8, 5, 3, 1]
     data = change_data_list(old_list)
     print(data)

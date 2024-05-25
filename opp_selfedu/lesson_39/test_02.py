@@ -8,6 +8,6 @@ class V3D:
     z: int
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     v1 = V3D()
     print(v1.__dict__)

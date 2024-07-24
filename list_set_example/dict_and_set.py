@@ -61,7 +61,6 @@ b_tuple = (1, 2, 3, []) # нельзя положить в set()
 d_set = set(a_tuple)
 
 
-
 if __name__ == '__main__':
     print(x)
     print(y)

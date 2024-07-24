@@ -1,9 +1,9 @@
 def encrypt_message(message):
-    orignal = ["a", "b", "c", " "]
+    original = ["a", "b", "c", " "]
     encrypt = ["z", "y", "x", "$"]
     i = 0
-    while i < len(orignal) and i < len(encrypt):
-        message = message.replace(orignal[i], encrypt[i])
+    while i < len(original) and i < len(encrypt):
+        message = message.replace(original[i], encrypt[i])
         i += 1
     return message
 

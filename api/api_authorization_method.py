@@ -8,7 +8,7 @@ Dive into the fundamentals of diverse authentication techniques to bolster your 
 
 2. API Key Authentication: 🔑
   Mechanism: Assigns a unique key to each user, functioning like a secret password.
-  Deployment: Ideal for servertoserver communication; safeguard keys diligently.
+  Deployment: Ideal for server to server communication; safeguard keys diligently.
 
 3. OAuth: 🌐
   Mechanism: Leverages thirdparty verification for granting access with specific, userdefined limitations.

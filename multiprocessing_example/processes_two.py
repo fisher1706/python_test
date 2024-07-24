@@ -40,5 +40,5 @@ def calc_sum_print(a_list: list):
 
 
 if __name__ == '__main__':
-    # work()
+    work()
     work_pool()

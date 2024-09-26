@@ -23,9 +23,9 @@ async def main_two():
     await asyncio.gather(*(async_http() for _ in range(5)))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     start = time.time()
-    # asyncio.run(main_one())
+    asyncio.run(main_one())
     asyncio.run(main_two())
     end = time.time()
     print(end - start)

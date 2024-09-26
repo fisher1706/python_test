@@ -1,6 +1,6 @@
 def func1():
     a = 1
-    b = 'line'
+    b = "line"
     c = [1, 2, 3]
 
     def func2():
@@ -8,6 +8,7 @@ def func1():
         c.append(4)
         a = a + 1
         return a, b, c
+
     return func2
 
 
@@ -17,10 +18,11 @@ def countdown(n):
         r = n
         n -= 1
         return r
+
     return step
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     calc_func = func1()
 
     for item in calc_func.__closure__:

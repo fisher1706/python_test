@@ -30,6 +30,6 @@ def run(parallel=True):
     print(f"time: {end - start} seconds")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     run(parallel=False)
     run()

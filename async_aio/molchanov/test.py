@@ -2,9 +2,9 @@ from inspect import getgeneratorstate
 
 
 def subgen():
-    x = 'Ready to accept message'
+    x = "Ready to accept message"
     message = yield x
-    print('Subgen received:', message)
+    print("Subgen received:", message)
 
 
 def average():
@@ -16,16 +16,16 @@ def average():
         try:
             x = yield average
         except StopIteration:
-            print('Done')
+            print("Done")
         else:
             count += 1
-            print('count = ', count)
+            print("count = ", count)
 
             sum += x
-            print('sum = ', sum)
+            print("sum = ", sum)
 
             average = round(sum / count, 2)
-            print('average = ', average)
+            print("average = ", average)
 
 
 # def subgen():
@@ -38,7 +38,7 @@ def delegator(g):
         yield i
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     g = subgen()
     y = getgeneratorstate(g)
     print(y)
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     print(x)
     print(d)
 
-    g.send('zapel')
+    g.send("zapel")
     z = getgeneratorstate(g)
     print(z)
 
@@ -69,8 +69,3 @@ if __name__ == '__main__':
     # g = delegator(sg)
     #
     # print(next(g))
-
-
-
-
-

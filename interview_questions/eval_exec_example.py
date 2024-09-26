@@ -8,4 +8,3 @@ greet('Alice')
 """
 
 exec(code)
-

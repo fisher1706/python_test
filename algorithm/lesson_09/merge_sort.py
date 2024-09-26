@@ -73,7 +73,7 @@ def merge_sort(a: list):
     return c
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     one = [1, 3, 3, 5, 7]
     two = [2, 4, 6, 8]
     array = [10, 3, 12, 6, 2, 7, 10, 11, 13, 21, 19, 7]

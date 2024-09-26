@@ -39,13 +39,13 @@ import time
 def fibonacci_recursive(n):
     if n <= 1:
         return n
-    return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+    return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
 
 def fibonacci_dp(n):
     fib_values = [0, 1]
     for i in range(2, n + 1):
-        fib_values.append(fib_values[i-1] + fib_values[i-2])
+        fib_values.append(fib_values[i - 1] + fib_values[i - 2])
     return fib_values[n]
 
 
@@ -53,7 +53,9 @@ def fibonacci_memoization(n, memo=None):
     if memo is None:
         memo = {0: 0, 1: 1}
     if n not in memo:
-        memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(n - 2, memo)
+        memo[n] = fibonacci_memoization(n - 1, memo) + fibonacci_memoization(
+            n - 2, memo
+        )
     return memo[n]
 
 
@@ -61,7 +63,7 @@ def fibonacci_dp_no_append(n):
     fib_values = [0] * (n + 1)
     fib_values[1] = 1
     for i in range(2, n + 1):
-        fib_values[i] = fib_values[i-1] + fib_values[i-2]
+        fib_values[i] = fib_values[i - 1] + fib_values[i - 2]
     return fib_values[n]
 
 
@@ -87,4 +89,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

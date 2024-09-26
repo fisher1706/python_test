@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=2tqieMDTA4w&list=PLysMDSbb9Hcyxwq966ET1_6dXkNF_PW0L&index=3
 
+
 def max_subs_len(s):
     seen = {}
     max_length = 0
@@ -94,7 +95,7 @@ def long_substring_two(s: str) -> int:
     return answer
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(max_subs_len("abcabcbb"))
 
     data = "abcabcbb"

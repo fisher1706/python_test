@@ -16,7 +16,7 @@ def printer():
     count = 0
     while True:
         if count % 3 == 0:
-            print('Bang!')
+            print("Bang!")
         count += 1
         yield
 
@@ -29,7 +29,7 @@ def main():
         sleep(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     g1 = counter()
     queue.append(g1)
     g2 = printer()

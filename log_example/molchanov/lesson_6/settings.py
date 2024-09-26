@@ -9,40 +9,31 @@ class MegaHandler(logging.Handler):
     def emit(self, record):
         message = self.format(record)
 
-        with open(self.filename, 'w') as file:
-            file.write(message + '\n')
+        with open(self.filename, "w") as file:
+            file.write(message + "\n")
 
 
 logger_config = {
-    'version': 1,
-    'disable_existing_loggers': False,
-
-    'formatters': {
-        'std_format': {
-            'format': '{asctime} - {levelname} - {name} - {message}',
-            'style': '{'
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "std_format": {
+            "format": "{asctime} - {levelname} - {name} - {message}",
+            "style": "{",
         }
     },
-
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-            'level': 'DEBUG',
-            'formatter': 'std_format'
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "std_format",
         },
-
-        'file': {
-            '()': MegaHandler,
-            'level': 'DEBUG',
-            'filename': 'debug.log',
-            'formatter': 'std_format'
-        }
+        "file": {
+            "()": MegaHandler,
+            "level": "DEBUG",
+            "filename": "debug.log",
+            "formatter": "std_format",
+        },
     },
-
-    'loggers': {
-        'app_logger': {
-            'level': 'DEBUG',
-            'handlers': ['console', 'file']
-        }
-    },
+    "loggers": {"app_logger": {"level": "DEBUG", "handlers": ["console", "file"]}},
 }

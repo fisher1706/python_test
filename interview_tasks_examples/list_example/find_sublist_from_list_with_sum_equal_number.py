@@ -31,7 +31,7 @@ def find_sublist_from_list_with_sum_equal_number_three(nums: list, k: int) -> in
     answer = 0
     subarray_sum = 0
     prefix_sum_count = {0: 1}
-    
+
     for i in range(len(nums)):
         subarray_sum += nums[i]
         to_remove = subarray_sum - k
@@ -93,7 +93,7 @@ O(n) и использует линейную память для хранени
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = [7, 2, -5, 1, 1, -1, 5, -5]
     n = 5
 

@@ -6,7 +6,7 @@ class Test:
         print(self.name)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     t1 = Test("object_testing")
 
     print(hasattr(t1, "name"))
@@ -26,4 +26,3 @@ if __name__ == '__main__':
 
     print(vars(Test))
     print(vars(t1))
-

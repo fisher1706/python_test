@@ -41,5 +41,5 @@ python backpack_two.py < knapsack_input.txt
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=GhiRlhPlJ9Q
 
+
 def quantity_of_path_recursive(n: int, m: int) -> int:
     if n < 1 or m < 1:
         return 0
@@ -61,7 +62,7 @@ O(n⋅m) и пространственной сложностью O(n⋅m).
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     x = 3
     y = 2
 

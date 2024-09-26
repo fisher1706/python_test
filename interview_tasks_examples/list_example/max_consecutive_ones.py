@@ -1,5 +1,6 @@
 # https://www.youtube.com/watch?v=VWEFo37RP44&list=PLysMDSbb9Hcyxwq966ET1_6dXkNF_PW0L&index=4
 
+
 def func(data: list, number: int):
     left = right = max1 = zeros = 0
     while right < len(data):
@@ -58,7 +59,7 @@ O(n). Функция корректно решает задачу нахожде
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     nums = [1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]
     k = 2
 

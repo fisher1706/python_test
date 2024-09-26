@@ -20,5 +20,5 @@ def count_min_price(n: int, price: list):
     return c[n]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(count_path_one(3))

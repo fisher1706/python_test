@@ -63,12 +63,16 @@ def binary_search_recursive(arr, target, left, right):
         return binary_search_recursive(arr, target, mid + 1, right)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     my_target = 7
 
     result = binary_search_iterative(my_arr, my_target)
-    print(f"Элемент найден на индексе: {result}" if result != -1 else "Элемент не найден")
+    print(
+        f"Элемент найден на индексе: {result}" if result != -1 else "Элемент не найден"
+    )
 
     result = binary_search_recursive(my_arr, my_target, 0, len(my_arr) - 1)
-    print(f"Элемент найден на индексе: {result}" if result != -1 else "Элемент не найден")
+    print(
+        f"Элемент найден на индексе: {result}" if result != -1 else "Элемент не найден"
+    )

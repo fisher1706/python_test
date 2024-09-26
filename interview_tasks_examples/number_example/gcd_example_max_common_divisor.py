@@ -23,7 +23,7 @@ def gcd_two(a, b) -> int:
         return gcd(b, a % b)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     out = gcd(40, 30)
     print(out)
 

@@ -20,7 +20,7 @@ list(), чтобы избежать создания полной копии.
 
 
 def func_two(data: list) -> None:
-    my_generator = (x ** 2 for x in data)
+    my_generator = (x**2 for x in data)
     for item in reversed(tuple(my_generator)):
         print(item)
 
@@ -31,7 +31,7 @@ def func_two(data: list) -> None:
 """
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_list = [1, 2, 3, 4, 5]
 
     func_one(my_list)

@@ -14,12 +14,12 @@ def list_comprehension(data):
 text = "Hello world"
 
 
-def list_comprehension_double(data=text):
+def list_comprehension_double(data: str = text):
     letters = [letter for word in data.split() for letter in word if letter < "l"]
     print(letters)
 
 
-def create_set_unique_letters(data=text):
+def create_set_unique_letters(data: str = text):
     letters = {letter for word in data.split() for letter in word if letter < "l"}
     print(letters)
 

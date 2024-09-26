@@ -9,3 +9,8 @@ if __name__ == "__main__":
     n = 7
     for i in squares(n):
         print(f"i=: {i}")
+
+    print(type(squares))
+
+    gen = squares(3)
+    print(type(gen))

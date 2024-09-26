@@ -3,7 +3,7 @@ from settings import logger_config
 
 logging.config.dictConfig(logger_config)
 
-logger = logging.getLogger('app_logger')
+logger = logging.getLogger("app_logger")
 # logger.setLevel('DEBUG')
 #
 # std_format = logging.Formatter(fmt='{asctime} - {levelname} - {name} - {message}', style='{')
@@ -19,8 +19,8 @@ logger = logging.getLogger('app_logger')
 
 
 def main():
-    logger.debug('Enter in to the main()')
+    logger.debug("Enter in to the main()")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

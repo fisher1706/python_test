@@ -29,10 +29,10 @@ print([] in a_set) - выдаст ошибку
 """
 
 x = timeit("dict()")
-y = timeit("{}") # быстрее создает словарь
+y = timeit("{}")  # быстрее создает словарь
 
 
-a_dict = {"x": 1, "y": 2, "z": 3} # начиная с python 3.7 словарь хранит порядок вставки
+a_dict = {"x": 1, "y": 2, "z": 3}  # начиная с python 3.7 словарь хранит порядок вставки
 a_set = set("xyzx")
 
 
@@ -41,7 +41,7 @@ b_set = set(b_list)
 b_dict = {e: None for e in b_list}
 
 
-c_list = [['        '] * 8]
+c_list = [["        "] * 8]
 c_list[0][3] = '("a", 1)'
 
 
@@ -56,12 +56,12 @@ class Dog:
     __hash__ = None
 
 
-a_tuple = (1, 2, 3) # можно положить в set()
-b_tuple = (1, 2, 3, []) # нельзя положить в set()
+a_tuple = (1, 2, 3)  # можно положить в set()
+b_tuple = (1, 2, 3, [])  # нельзя положить в set()
 d_set = set(a_tuple)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(x)
     print(y)
     print("*" * 200)
@@ -88,7 +88,9 @@ if __name__ == '__main__':
     in_dict_two = timeit("9999 in a_dict", "from __main__ import a_dict", number=100)
     print(in_dict_two)
 
-    in_dict_three = timeit("50_000 in a_dict", "from __main__ import a_dict", number=100)
+    in_dict_three = timeit(
+        "50_000 in a_dict", "from __main__ import a_dict", number=100
+    )
     print(in_dict_three)
     print("*" * 200)
 
@@ -98,7 +100,7 @@ if __name__ == '__main__':
 
     print(hash(tom))
     print(id(tom))
-    print(id(tom)//16)
+    print(id(tom) // 16)
     # print(hash(Dog()))
     print("*" * 200)
 

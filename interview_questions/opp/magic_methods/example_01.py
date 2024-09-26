@@ -14,7 +14,7 @@ class Banknote:
         return f"banknote value: {self.value}"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     b = Banknote(10)
 
     print(b)

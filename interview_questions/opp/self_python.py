@@ -35,6 +35,9 @@ class Person:
         print(f"Hello {self.name}")
 
 
+class Test: ...
+
+
 if __name__ == "__main__":
     my_object = MyClass(10)
     my_object.show_value()
@@ -42,3 +45,8 @@ if __name__ == "__main__":
 
     person = Person("John")
     person.say_hello()
+
+    Person.say_hello(person)
+
+    t = Test()
+    print(t.__dict__)

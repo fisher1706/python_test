@@ -12,9 +12,9 @@ class NetworkTwo:
         self.all_allocated_ip.append(var)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n1 = NetworkOne()
-    n1.some_update(5)
+    # n1.some_update(5)
     print(n1.all_allocated_ip)
     print(NetworkOne.all_allocated_ip)
 
@@ -22,4 +22,3 @@ if __name__ == '__main__':
     n2.some_update(5)
     print(n2.all_allocated_ip)
     print(NetworkTwo.all_allocated_ip)
-

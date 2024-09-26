@@ -37,7 +37,7 @@ def naive_substring_search(main_string, substring):
     # Перебираем все возможные начальные позиции подстроки в строке
     for i in range(n - m + 1):
         # Используем функцию equal для сравнения подстроки с частью основной строки
-        if equal(main_string[i: i + m], substring):
+        if equal(main_string[i : i + m], substring):
             return i  # Возвращаем индекс, если подстрока найдена
     return -1  # Возвращаем -1, если подстрока не найдена
 

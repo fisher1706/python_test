@@ -1,6 +1,7 @@
 # https://www.youtube.com/watch?v=m4HOkVeN4Mo&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0&index=11
 # https://www.youtube.com/watch?v=t2DpD9GnhfU
 
+
 def lcs(a: list, b: list) -> int:
     f = [[0] * (len(b) + 1) for _ in range(len(a) + 1)]
     print(f)
@@ -15,10 +16,10 @@ def lcs(a: list, b: list) -> int:
 
 
 def lis_example(a):
-    """Возвращает длину наибольшей возрастающей подпоследовательности """
-    f = [0]*(len(a) + 1)
+    """Возвращает длину наибольшей возрастающей подпоследовательности"""
+    f = [0] * (len(a) + 1)
     for i in range(1, len(a) + 1):
-        m = 0 #максимум
+        m = 0  # максимум
         for j in range(0, i):
             if a[i - 1] > a[j - 1] and f[j] > m:
                 m = f[j]
@@ -26,7 +27,7 @@ def lis_example(a):
     return max(*f)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A = [1, 2, 3, 4, 8, 9, 7, 8]
     B = [1, 2, 8, 3]
 

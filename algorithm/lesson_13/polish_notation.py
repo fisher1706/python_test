@@ -26,13 +26,13 @@ def evaluate_rpn(expression):
             operand2 = a_stack.pop()
             operand1 = a_stack.pop()
             # Делаем операцию (одни из) с отправкой в стек.
-            if token == '+':
+            if token == "+":
                 a_stack.push(operand1 + operand2)
-            elif token == '-':
+            elif token == "-":
                 a_stack.push(operand1 - operand2)
-            elif token == '*':
+            elif token == "*":
                 a_stack.push(operand1 * operand2)
-            elif token == '/':
+            elif token == "/":
                 a_stack.push(operand1 / operand2)
     return a_stack.pop()
 

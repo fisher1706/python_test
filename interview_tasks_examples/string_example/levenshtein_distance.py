@@ -79,17 +79,21 @@ def levenshtein(seq1, seq2):
             else:
                 # Иначе выбираем минимум из трех соседних значений и прибавляем 1
                 dp[i][j] = 1 + min(
-                    dp[i - 1][j],     # Удаление
-                    dp[i][j - 1],     # Вставка
-                    dp[i - 1][j - 1]  # Замена
+                    dp[i - 1][j],  # Удаление
+                    dp[i][j - 1],  # Вставка
+                    dp[i - 1][j - 1],  # Замена
                 )
     return dp[-1][-1]
+
 
 # https://www.youtube.com/watch?v=rEPggzaPoUw&list=PLRDzFCPr95fK7tr47883DFUbm4GeOjjc0&index=13
 
 
 def levenshtein_two(a: str, b: str) -> int:
-    f = [[i + j if i * j == 0 else 0 for j in range(len(b) + 1)] for i in range(len(a) + 1)]
+    f = [
+        [i + j if i * j == 0 else 0 for j in range(len(b) + 1)]
+        for i in range(len(a) + 1)
+    ]
     for i in range(1, len(a) + 1):
         for j in range(1, len(b) + 1):
             if a[i - 1] == b[j - 1]:

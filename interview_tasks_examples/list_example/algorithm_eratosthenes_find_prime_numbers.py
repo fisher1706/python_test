@@ -1,20 +1,25 @@
 # https://www.youtube.com/watch?v=lgHS8SoEsB0
-def sieve_of_eratosthenes(number: int):
-    primes = [True] * number
-    primes[0] = primes[1] = False
+# https://www.youtube.com/watch?v=FTBFWYuKsM0
+
+
+def sieve_of_eratosthenes(number):
+    # Изначально все числа считаются простыми (True)
+    primes = [True] * (number + 1)
     p = 2
 
-    for k in range(2, number):
+    while p * p <= number:
+        # Если primes[p] не был изменен, то это простое число
         if primes[p]:
-            for i in range(2 * k, number, k):
+            # Обновляем все кратные p начиная с p^2
+            for i in range(p * p, number + 1, p):
                 primes[i] = False
+        p += 1
 
-    prime_numbers = [p for p in range(2, number) if primes[p]]
-    return prime_numbers
+    # Возвращаем все простые числа
+    return [p for p in range(2, number + 1) if primes[p]]
 
 
-if __name__ == '__main__':
-    n = 30
+if __name__ == "__main__":
+    n = 20
 
     print(f"Простые числа до {n}: {sieve_of_eratosthenes(n)}")
-    

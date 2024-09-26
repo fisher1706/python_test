@@ -10,7 +10,8 @@ name = "Ivan"
 class Person:
     name = "Dima"
 
-    def print_name_1(self):
+    @staticmethod
+    def print_name_1():
         print(name)
 
     def print_name_2(self):

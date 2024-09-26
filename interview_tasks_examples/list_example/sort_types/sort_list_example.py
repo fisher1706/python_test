@@ -1,9 +1,15 @@
 numbers = [7, 1, 4, 8]
+print(id(numbers))
+
 sorted_number = sorted(numbers)
 print(sorted_number)
+print(id(sorted_number))
+
+print("*" * 200)
 
 numbers.sort()
 print(numbers)
+print(id(numbers))
 
 
 """

@@ -25,3 +25,5 @@ if __name__ == "__main__":
     b1.change_general_message("new_message")
     b1.print_general_message()
     b2.print_general_message()
+
+    Bank.print_general_message(b1)

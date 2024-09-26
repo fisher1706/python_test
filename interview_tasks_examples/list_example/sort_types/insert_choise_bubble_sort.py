@@ -35,7 +35,7 @@ def bubble_sort(data: list) -> list:
     return data
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_list = [4, 2, 2, 5, 1, 3]
 
     out_insert = insert_sort(my_list)

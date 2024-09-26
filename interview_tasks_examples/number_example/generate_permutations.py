@@ -1,4 +1,3 @@
-
 def generate_numbers(n: int, m: int, prefix=None):
     # Инициализация префикса, если он не передан
     prefix = prefix or []
@@ -59,7 +58,7 @@ def find(num: int, data: list) -> bool:
         return flag
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate_numbers(3, 2)
     print("*" * 200)
 

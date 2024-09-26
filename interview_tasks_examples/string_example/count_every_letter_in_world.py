@@ -7,15 +7,20 @@ def count_symbols_in_string(data: str) -> dict:
 
 def separate_string_on_list_of_tuple(data: str) -> list[tuple]:
     out = []
+    index = [0]  # Start with the first index
 
-    index = [0, len(data)]
+    # Find indices where the character changes
     for i in range(1, len(data)):
-        if data[i - 1] != data[i]:
+        if data[i] != data[i - 1]:
             index.append(i)
-    index.sort()
+    index.append(len(data))  # Append the last index
 
+    # Create tuples of (character, length of consecutive sequence)
     for i in range(1, len(index)):
-        out.append((data[index[i - 1]], len(data[index[i - 1]: index[i]])))
+        char = data[index[i - 1]]
+        length = index[i] - index[i - 1]
+        out.append((char, length))
+
     return out
 
 

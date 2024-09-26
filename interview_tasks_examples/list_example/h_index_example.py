@@ -28,7 +28,7 @@ def h_index(citations):
     return h
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Список цитирований
     data = [3, 0, 6, 1, 5]
 

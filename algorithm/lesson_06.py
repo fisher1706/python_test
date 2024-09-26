@@ -6,6 +6,7 @@
 O(n^2)
 """
 
+
 def insert_sort(data: list) -> list:
     n = len(data)
     for top in range(1, n):
@@ -55,7 +56,7 @@ def count_sort(data: list) -> list:
     return sorted_list
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     my_list = [4, 2, 2, 5, 1, 3]
 
     out_insert = insert_sort(my_list)

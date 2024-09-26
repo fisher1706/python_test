@@ -12,7 +12,7 @@ second = {2: 2, 1: 1, 3: 3, 4: 4}
 chain = ChainMap(first, second)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(chain)
 
     print(1 in chain)

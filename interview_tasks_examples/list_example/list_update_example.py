@@ -5,7 +5,7 @@ lst1[1] *= 2
 lst2[1] -= 2
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(lst1)
     print(lst2)
 

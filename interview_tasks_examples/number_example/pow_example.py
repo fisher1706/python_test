@@ -8,9 +8,9 @@ def func_pow(a: float, number: int) -> float:
     elif number % 2 == 1:
         return func_pow(a, number - 1) * a
     else:
-        return func_pow(a ** 2, number // 2)
+        return func_pow(a**2, number // 2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     out_pow = func_pow(5, 3)
     print(f"pow: {out_pow}")

@@ -20,10 +20,12 @@ def shift_right(data: list, k: int) -> None:
     print(data)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A3 = [1, 2, 3, 4, 5]
     A4 = [1, 2, 3, 4, 5]
 
     shift_left(A3, 1)
 
     shift_right(A4, 1)
+
+    print(3 % 5)

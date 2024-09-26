@@ -2,6 +2,8 @@
 Рекурсия ограничена глубиной стека - (1000 - по умолчанию), не оптимизирована
 """
 
+import sys
+
 
 def inc_with_error(x):
     print(x)
@@ -36,9 +38,15 @@ def my_pow(x: int, y: int) -> int:
     return x * my_pow(x, y - 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = my_sum([1, 2, 3, 4, 5])
     print(data)
 
     print(my_reverse())
     print(my_pow(2, 4))
+
+    # get recursion limit
+    print(sys.getrecursionlimit())
+
+    # set recursion limit
+    print(sys.setrecursionlimit(2000))

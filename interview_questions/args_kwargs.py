@@ -5,11 +5,18 @@
 
 
 def my_func_args(a, b, *args):
+    print("locals: ", locals())
     print(a, b, args)
 
 
 def my_func_kwargs(a, b, **kwargs):
+    print("locals: ", locals())
     print(a, b, kwargs)
+
+    # for arg in kwargs:
+    #     print(arg, kwargs[arg])
+    out = [str(arg) + "=" + str(kwargs[arg]) for arg in kwargs]
+    print(out)
 
 
 if __name__ == "__main__":

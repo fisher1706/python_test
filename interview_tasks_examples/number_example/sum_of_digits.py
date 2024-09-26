@@ -1,9 +1,6 @@
 def sum_of_digits(some_number):
-    return (
-        sum([int(val) for val in str(some_number)])
-        if isinstance(some_number, (int, str))
-        else "error"
-    )
+    return sum([int(val) for val in str(some_number)]) if isinstance(some_number, (int, str)) else "error"
+
 
 
 if __name__ == "__main__":

@@ -9,19 +9,19 @@ from terminaltables import AsciiTable
 
 # Определение данных для таблицы
 data = [
-    ['Header 1', 'Header 2'],
-    ['Row 1, Col 1', 'Row 1, Col 2'],
-    ['Row 2, Col 1', 'Row 2, Col 2']
+    ["Header 1", "Header 2"],
+    ["Row 1, Col 1", "Row 1, Col 2"],
+    ["Row 2, Col 1", "Row 2, Col 2"],
 ]
 
 # Создание таблицы
 table_one = AsciiTable(data)
 
 table_two = AsciiTable(data)
-table_two.title = 'My Table Title'  # Добавление заголовка таблицы
+table_two.title = "My Table Title"  # Добавление заголовка таблицы
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Печать таблицы в терминал
     print(table_one.table)
     print(table_two.table)

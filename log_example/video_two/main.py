@@ -17,7 +17,7 @@ def password_filter(log: logging.LogRecord) -> int:
 # noinspection PyTypeChecker
 def init_logger(name):
     logger = logging.getLogger(name)
-    my_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    my_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
     logger.setLevel(logging.DEBUG)
     sh = logging.StreamHandler()
     sh.setFormatter(logging.Formatter(my_format))
@@ -34,8 +34,8 @@ def init_logger(name):
 
 def get_logging_git_config():
     return {
-        'version': 1,
-        'formatters': {
+        "version": 1,
+        "formatters": {
             "detailed": {
                 "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
             }
@@ -51,18 +51,18 @@ def get_logging_git_config():
                 "level": "INFO",
                 "formatter": "detailed",
                 "filename": "logs/test.log",
-            }
+            },
         },
         "loggers": {
             "app": {
                 "handlers": ["std", "file"],
                 "level": "DEBUG",
             }
-        }
+        },
     }
 
 
-init_logger("app") # config log from python code
+init_logger("app")  # config log from python code
 # logging.config.dictConfig(get_logging_git_config()) # config log from dict
 my_logger = logging.getLogger("app.main")
 

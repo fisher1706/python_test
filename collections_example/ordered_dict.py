@@ -13,7 +13,7 @@ order_1 = OrderedDict(first)
 order_2 = OrderedDict(second)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(first == second)
     print(order_1 == order_2)
     print(order_1)

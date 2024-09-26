@@ -10,3 +10,4 @@ add("oleg") -> hashCode("oleg" -> [invert "oleg" to 21 - for example] -> always 
 """
 
 print("oleg" in hash_set)
+print(hash_set)

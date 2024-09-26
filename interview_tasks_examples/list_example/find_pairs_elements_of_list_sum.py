@@ -31,6 +31,7 @@ def find_pairs_with_hash_set(my_list, number):
 # https://www.youtube.com/watch?v=LRbpzSgBjEE&list=PLysMDSbb9Hcyxwq966ET1_6dXkNF_PW0L&index=7
 # https://www.youtube.com/watch?v=JtMuXmmDl9s
 
+
 def find_different_sum(array, number):
     left = 0
     right = len(array) - 1
@@ -54,13 +55,14 @@ def find_different_sum(array, number):
 if __name__ == "__main__":
     data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     n = 5
-
-    # print(find_pairs(data, n))
+    print(find_pairs(data, n))
+    print("*" * 200)
 
     x = find_pairs_with_hash_set(data, n)
     print(x)
+    print("*" * 200)
 
     data = [-4, -1, 0, 2, 3, 4, 7, 9]
     k = 10
-
     find_different_sum(data, k)
+    print("*" * 200)

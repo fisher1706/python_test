@@ -50,8 +50,8 @@ compute()
 """
 
 
-if __name__ == '__main__':
-    execution_time = timeit.timeit('example_function()', globals=globals(), number=1000)
+if __name__ == "__main__":
+    execution_time = timeit.timeit("example_function()", globals=globals(), number=1000)
     print(f"Execution time: {execution_time} seconds")
 
     execution_time = timeit.timeit(stmt=test_code, setup=setup_code, number=1000)

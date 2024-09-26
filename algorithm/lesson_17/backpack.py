@@ -67,6 +67,7 @@
 # Динамическое программирование в данном случае позволяет уйти от
 # O(2^n) - полный перебор к O(n * m)
 
+
 def backpack(max_weight, weights, values):
     """
     Calculate the maximum value that can be achieved with a given
@@ -92,7 +93,7 @@ def backpack(max_weight, weights, values):
                 # Item can be included in the optimal subset
                 dp[i][j] = max(
                     dp[i - 1][j],  # Item is not included
-                    values[i - 1] + dp[i - 1][j - weights[i - 1]]  # Item is included
+                    values[i - 1] + dp[i - 1][j - weights[i - 1]],  # Item is included
                 )
             else:
                 # Item can't be included in the optimal subset

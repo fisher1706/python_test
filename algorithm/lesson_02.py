@@ -17,10 +17,10 @@ def func_three(data: int):
         if i % 3 == 0 and i % 2 == 0:
             print(i)
         else:
-            print('zapel')
+            print("zapel")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(func_one(15))
     print(func_two(15))
 

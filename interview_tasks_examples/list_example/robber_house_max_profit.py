@@ -18,7 +18,7 @@ def robber(houses: list[int]) -> int:
     return dp[-1]
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = [4, 11, 10, 1, 2, 8, 5]
 
     out = robber(data)

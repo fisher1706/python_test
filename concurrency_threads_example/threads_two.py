@@ -23,7 +23,7 @@ counter = [0]
 lock = threading.Lock()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tk = Tk()
     button_1 = ttk.Button(tk, text="WAIT", command=lambda: waiting(3))
     button_1.pack(side=LEFT)

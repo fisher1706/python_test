@@ -48,6 +48,7 @@ right: Содержит элементы, большие опорного.
 
 # https://www.youtube.com/watch?v=TI0u7o5I_Yo&list=PLuW7Z72R04bia6ohD5ELVhNZXm5gdU8s5&index=1
 
+
 def quick_sort(array: list, reverse: bool = True) -> list:
     if len(array) <= 1:
         return array
@@ -57,13 +58,18 @@ def quick_sort(array: list, reverse: bool = True) -> list:
     higher_array = [el for el in array if el > pivot]
 
     result = (
-            quick_sort(lover_array, reverse=reverse) +
-            [el for el in array if el == pivot] +
-            quick_sort(higher_array, reverse=reverse)) if reverse \
+        (
+            quick_sort(lover_array, reverse=reverse)
+            + [el for el in array if el == pivot]
+            + quick_sort(higher_array, reverse=reverse)
+        )
+        if reverse
         else (
-            quick_sort(higher_array, reverse=reverse) +
-            [el for el in array if el == pivot] +
-            quick_sort(lover_array, reverse=reverse))
+            quick_sort(higher_array, reverse=reverse)
+            + [el for el in array if el == pivot]
+            + quick_sort(lover_array, reverse=reverse)
+        )
+    )
     return result
 
 

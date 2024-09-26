@@ -3,7 +3,10 @@
 
 
 def levenshtein(a: str, b: str) -> int:
-    f = [[i + j if i * j == 0 else 0 for j in range(len(b) + 1)] for i in range(len(a) + 1)]
+    f = [
+        [i + j if i * j == 0 else 0 for j in range(len(b) + 1)]
+        for i in range(len(a) + 1)
+    ]
     for i in range(1, len(a) + 1):
         for j in range(1, len(b) + 1):
             if a[i - 1] == b[j - 1]:
@@ -45,7 +48,7 @@ def kmp_search(main_string: str, sub_string: str, start_index: int = 0):
     return None  # Если подстрока не найдена
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     str_1 = "level"
     str_2 = "avada kedavra"
     str_3 = "ACGA"

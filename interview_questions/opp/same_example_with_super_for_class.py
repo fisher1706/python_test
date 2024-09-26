@@ -10,6 +10,6 @@ class A(B):
         super().b(self.A, a1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     a = A()
     a.b(1)

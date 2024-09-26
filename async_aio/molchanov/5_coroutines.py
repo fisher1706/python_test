@@ -1,18 +1,17 @@
-
-
 def coroutine(func):
     def inner(*args, **kwargs):
         g = func(*args, **kwargs)
         g.send(None)
         return g
+
     return inner
 
 
 # @coroutine
 def subgen():
-    x = 'Ready to accept message'
+    x = "Ready to accept message"
     message = yield x
-    print('Subgen received:', message)
+    print("Subgen received:", message)
 
 
 class BlaBlaException(Exception):
@@ -29,21 +28,21 @@ def average():
         try:
             x = yield average
         except StopIteration:
-            print('Done')
+            print("Done")
             break
         except BlaBlaException:
-            print('..................................')
+            print("..................................")
             break
         else:
             count += 1
             sum += x
-            average = round(sum/count, 2)
+            average = round(sum / count, 2)
     return average
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     g = subgen()
     # next(g)
 
     g.send(None)
-    g.send('Ok')
+    g.send("Ok")

@@ -14,6 +14,8 @@ def extract_number(data):
             for v in val.values():
                 if isinstance(v, int) and not isinstance(v, bool):
                     out.append(v)
+    print(f"out: {out}")
+
     return sum(out)
 
 

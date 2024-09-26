@@ -54,14 +54,14 @@ b_deque = deque([1, 2, 3], maxlen=3)
 
 
 def read_file_with_deque(filename="points.csv", max_len=2):
-    with open(filename, 'r') as f:
+    with open(filename, "r") as f:
         f_deque = deque(f, maxlen=max_len)
 
     for line in f_deque:
         print(line.rstrip())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(a_deque)
     a_deque.appendleft(2)
     print(a_deque)

@@ -26,7 +26,7 @@ async def main():
     await asyncio.create_task(three())
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     start = time.time()
     asyncio.run(main())
     end = time.time()

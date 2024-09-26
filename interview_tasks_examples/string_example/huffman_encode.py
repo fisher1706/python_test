@@ -72,7 +72,7 @@ def decompress(text, dc_haf, index="-"):
         num = 1
         while text[:num] not in dc_decode:
             num += 1
-            
+
         print(f"\ntext: {text[:num]}, num: {num}")
         st_res += dc_decode[text[:num]]
         print(f"\nst_res: {st_res}")
@@ -80,7 +80,7 @@ def decompress(text, dc_haf, index="-"):
     return st_res
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = "preved medved"
 
     out = count_of_letters(data)

@@ -3,20 +3,20 @@ import aiohttp
 from time import time
 
 
-def wrire_image(data):
-    filename = 'file-{}.jpeg'.format(int(time() * 1000))
-    with open(filename, 'wb') as file:
+def write_image(data):
+    filename = "file-{}.jpeg".format(int(time() * 1000))
+    with open(filename, "wb") as file:
         file.write(data)
 
 
 async def fetch_content(url, session):
     async with session.get(url, allow_redirects=True) as responce:
         data = await responce.read()
-        wrire_image(data)
+        write_image(data)
 
 
 async def main():
-    url = 'https://loremflickr.com/320/240'
+    url = "https://loremflickr.com/320/240"
     tasks = []
 
     async with aiohttp.ClientSession() as session:
@@ -26,7 +26,7 @@ async def main():
         await asyncio.gather(*tasks)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     t0 = time()
     asyncio.run(main())
     print(time() - t0)

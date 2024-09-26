@@ -3,6 +3,6 @@ def print_square(n: int):
         print("* " * n)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     num = 5
     print_square(num)

@@ -9,7 +9,7 @@ def info():
     print(f"Process - {pid}, name - {name}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # info()
 
     threads = [Thread(target=info, daemon=True) for _ in range(10)]

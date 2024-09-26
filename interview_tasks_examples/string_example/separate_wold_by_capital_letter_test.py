@@ -30,3 +30,5 @@ if __name__ == "__main__":
 
     print(func_one(val))
     print(func_two(val_big))
+
+    my_list = ["Python", "IsGreat"]

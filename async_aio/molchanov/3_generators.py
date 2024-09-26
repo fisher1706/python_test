@@ -3,7 +3,7 @@ from time import time
 
 def gen_filename():
     while True:
-        pattern = 'file-{}.jpeg'
+        pattern = "file-{}.jpeg"
         t = int(time() * 1000)
         yield pattern.format(str(t))
 
@@ -24,7 +24,7 @@ def gen2(n):
         yield i
 
 
-g1 = gen1('oleg')
+g1 = gen1("oleg")
 g2 = gen2(4)
 
 tasks = [g1, g2]

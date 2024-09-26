@@ -35,7 +35,6 @@ def outer(func):
     def inner(*args, **kwargs):
         print("message")
         return func(*args, **kwargs)
-
     return inner
 
 
@@ -49,9 +48,7 @@ def second_outer(*dargs, **dkwargs):
         def inner_two(*args, **kwargs):
             print(*dargs, **dkwargs)
             return func(*args, **kwargs)
-
         return inner_two
-
     return outer_two
 
 

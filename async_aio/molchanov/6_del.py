@@ -1,9 +1,9 @@
-
 def coroutine(func):
     def inner(*args, **kwargs):
         g = func(*args, **kwargs)
         g.send(None)
         return g
+
     return inner
 
 
@@ -20,8 +20,8 @@ def subgen():
             # print('Ku-ku!!!')
             break
         else:
-            print('.........', message)
-    return 'Returned from subgen()'
+            print(".........", message)
+    return "Returned from subgen()"
 
 
 @coroutine
@@ -34,4 +34,3 @@ def delegator(g):
     #         g.throw(e)
     result = yield from g
     print(result)
-

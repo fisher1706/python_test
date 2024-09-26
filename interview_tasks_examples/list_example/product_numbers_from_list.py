@@ -20,11 +20,15 @@ def list_product(data):
         if type(i) == dict:
             for j in list(i.values()):
                 (
-                    l1.extend(extract_number(j)) if type(extract_number(j)) == list else None
+                    l1.extend(extract_number(j))
+                    if type(extract_number(j)) == list
+                    else None
                 )
             for j in list(i.keys()):
                 (
-                    l1.extend(extract_number(j)) if type(extract_number(j)) == list else None
+                    l1.extend(extract_number(j))
+                    if type(extract_number(j)) == list
+                    else None
                 )
         else:
             l1.extend(extract_number(i)) if type(extract_number(i)) == list else None

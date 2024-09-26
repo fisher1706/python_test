@@ -7,3 +7,6 @@ if __name__ == "__main__":
 
     sort_data = sorted_list_of_lists(start_data, 2)
     print(sort_data)
+
+    print(id(start_data))
+    print(id(sort_data))

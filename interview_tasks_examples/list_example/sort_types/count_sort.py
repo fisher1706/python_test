@@ -11,18 +11,17 @@ def count_sort(data: list) -> list:
     for x in data:
         print(f"x: {x}, f[x] + 1: {f[x] + 1}")
         f[x] += 1
+        print(f"f: {f}")
 
-    print(f"f: {f}")
-
-    inner = [[i] * f[i] for i in range(len(f))]
+    inner = [[i] * f[i] for i in range(len(f)) if f[i]]
     print(f"inner: {inner}")
 
     sorted_list = [i for val in inner for i in val]
     return sorted_list
 
 
-if __name__ == '__main__':
-    my_list = [4, 2, 2, 5, 1, 3]
+if __name__ == "__main__":
+    my_list = [0, 4, 2, 2, 0, 5, 1, 3]
 
     out_count = count_sort(my_list)
     print(out_count)

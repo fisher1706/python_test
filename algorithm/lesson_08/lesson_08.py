@@ -1,6 +1,7 @@
 # https://www.youtube.com/watch?v=2XFaK3bgT7w
 # Полезно посмотреть картинку в этой же папке для обхода/траектории
 
+
 def generate_numbers(n: int, m: int, prefix=None):
     """
     Генерирует все числа (с лидирующими незначащими нулями) в N-ричной
@@ -70,7 +71,7 @@ def find(num: int, data: list) -> bool:
         return flag
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate_numbers(3, 2)
     print("*" * 200)
 

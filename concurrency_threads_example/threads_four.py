@@ -12,7 +12,7 @@ def inc_queue():
     queue.put(c + 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     threads = [Thread(target=inc_queue, daemon=True) for _ in range(10)]
     for t in threads:
         t.start()

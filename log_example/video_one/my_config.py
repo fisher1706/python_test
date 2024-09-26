@@ -26,46 +26,40 @@ logger_conf = {
     "formatters": {
         "console_msg": {
             "format": "{levelname} - {message} - {filename} - {funcName} - {lineno}",
-            "style": "{"
+            "style": "{",
         }
     },
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
             "level": "INFO",
-            "formatter": "console_msg"
+            "formatter": "console_msg",
         },
         "file_info": {
             "class": "logging.FileHandler",
             "level": "INFO",
             "formatter": "console_msg",
             "filename": "my_info_log.log",
-            "filters": ["info_filter"]
+            "filters": ["info_filter"],
         },
         "file_warning": {
             "class": "logging.FileHandler",
             "level": "INFO",
             "formatter": "console_msg",
             "filename": "my_warning_log.log",
-            "filters": ["warning_filter"]
-        }
+            "filters": ["warning_filter"],
+        },
     },
     "filters": {
-        "my_filter": {
-            "()": MyFilter
-        },
-        "info_filter": {
-            "()": InfoFilter
-        },
-        "warning_filter": {
-            "()": WarningFilter
-        },
+        "my_filter": {"()": MyFilter},
+        "info_filter": {"()": InfoFilter},
+        "warning_filter": {"()": WarningFilter},
     },
     "loggers": {
         "my_python_logger": {
             "level": "INFO",
             "handlers": ["console", "file_info", "file_warning"],
-            "filters": ["my_filter"]
+            "filters": ["my_filter"],
         }
-    }
+    },
 }

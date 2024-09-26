@@ -7,12 +7,12 @@ namedtuple - для создания структуры данных, средн
 """
 
 
-cat = namedtuple('cat', 'name age color')
-tom = cat('Tom', 25, 'blue')
+cat = namedtuple("cat", "name age color")
+tom = cat("Tom", 25, "blue")
 
 
 def work_with_csv_example(filename="points.csv"):
-    Point = namedtuple('Point', 'x y')
+    Point = namedtuple("Point", "x y")
 
     with open(filename) as file:
         for line in csv.reader(file):
@@ -20,7 +20,7 @@ def work_with_csv_example(filename="points.csv"):
             print(point)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(tom)
     print(tom[0])
     print(tom.age)

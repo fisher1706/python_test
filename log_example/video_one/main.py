@@ -12,7 +12,7 @@ def main():
     logger.error("message error", extra={"status_code": status})
 
     try:
-        print(10/0)
+        print(10 / 0)
         logger.error("message error", extra={"status_code": status})
     except Exception as e:
         print(e)
@@ -20,7 +20,7 @@ def main():
     print("Hello world")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(f"logger: {logger}")
     print(f"handlers: {logger.handlers}")
     print("*" * 200)

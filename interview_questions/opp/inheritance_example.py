@@ -82,6 +82,6 @@ class C(A, B):
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     obj = C()
     obj.method()

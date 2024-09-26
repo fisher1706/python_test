@@ -61,7 +61,7 @@ def sieve_of_eratosthenes(number: int):
     return prime_numbers
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     A1 = [1, 2, 3, 4, 5]
     A2 = [1, 2, 3, 4, 5]
     A3 = [1, 2, 3, 4, 5]

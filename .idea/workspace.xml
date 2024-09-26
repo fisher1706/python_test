@@ -5,208 +5,223 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6edc163b-469e-4690-ae79-5b214a848adb" name="Default" comment="some_commit">
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_07/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_07/ex04_gcd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_07/ex05_power.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_07/lesson_07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_08/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_08/lesson_08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_08/rec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_08/rec2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_09/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_09/lesson_09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_09/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/chess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/knapsack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/lcs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/lesson_11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/levenshtein_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_11/lis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_12/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_12/kmp_substring_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_12/lesson_12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_12/naive_search_substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_13/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_13/a_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_13/lesson_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_13/polish_notation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_14/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_14/lesson_14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack_three.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack_two.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/fibonacci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/lesson_17/knapsack_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/Python3 Cheat Sheet.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_en_all.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/fast_api_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/hash_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/opp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/opp/inheritance_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/opp/magic_methods/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_questions/opp/magic_methods/example_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/all_example/closure_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/chess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/knapsack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/quantity_of_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/decorator_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/enumerate_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/filter_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/reverse_generator_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/iterator_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/lambda_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/connect_two_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/del_elements_from_list_by_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/every_word_to_upper_from_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_el_from_list_with_count_of_el_equal_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_sublist_from_list_with_sum_equal_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/h_index_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/lcs_max_common_subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/lis_max_increasing_subsequence_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_update_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/max_consecutive_ones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/recursive_sum_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/replace_elements_in_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/robber_house_max_profit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/shift_left_right.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_example_with_add_data_to_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_task_with_temperature_of_day.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_update_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/count_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_of_list_by_lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_only_even_elements_in_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/map_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/check_triangle_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/gcd_example_max_common_divisor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/generate_permutations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/pow_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/on_future/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/on_future/find_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/set_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/algorithm_bmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_deaf_rats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_every_letter_in_world.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/find_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/huffman_encode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/kmp_substring_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/levenshtein_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/longest_substring_without_repeating_characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/string_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/string_example_two.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/triangle_print_example/print_square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request_test/request_2024/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request_test/request_2024/lesson_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/request_test/request_2024/lesson_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868304.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868310.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868311.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868313.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868314.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868322.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868335.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868346.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868354.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/async_aio/molchanov/file-1726560868356.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/Кортежи_Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/Функции_Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/and_or_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/if_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/legb_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/module_example/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/module_example/two/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/opp/attr_of_class_and_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/opp/descriptor_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_questions/quantity_links_for_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/lambda_example/lambda_with_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/set_example/Множества_Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/gl_example_full.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log_example/book/Книга_логирования_в_Python.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/cisco_secure_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/install_soft_macos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/jwt.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/osi_model.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/pcap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/sse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/updates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_test/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_theory/piramide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing_theory/testing_piramide.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api_authorization_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_authorization_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/opp_all_en.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/opp_en_two.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/english_interview/interview_questions.py" beforeDir="false" afterPath="$PROJECT_DIR$/english_interview/interview_questions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/@classmethods_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/@classmethods_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/abstract_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/abstract_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/async.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/async.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/composition.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/composition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/dict_metods.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/dict_metods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/difference_between__init__and__next__example_of_singelton.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/difference_between__init__and__next__example_of_singelton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/index_of_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/index_of_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/inheritance_and_method_super.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/inheritance_and_method_super.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/iterator_example/iterator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/list_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/magic__dander__methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/magic__dander__methods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/metaclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/metaclass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/mixin_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/mixin_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/mro_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/mro_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/opp_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/opp_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/property_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/property_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/same_example_with_super_for_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/same_example_with_super_for_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/self_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/self_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/static_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/static_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_questions/work_with_var_of_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/work_with_var_of_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_07/lesson_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_07/lesson_07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_08/lesson_08.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_08/lesson_08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_09/lesson_09.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_09/lesson_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_09/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_09/merge_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_10/lesson_10_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_11/chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_11/chess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_11/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_11/knapsack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_11/lesson_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_11/lesson_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_11/levenshtein_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_11/levenshtein_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_11/lis.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_11/lis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_12/kmp_substring_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_12/kmp_substring_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_12/lesson_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_12/lesson_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_12/naive_search_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_12/naive_search_substring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_13/a_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_13/a_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_13/lesson_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_13/lesson_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_13/polish_notation.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_13/polish_notation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_14/lesson_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_14/lesson_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_17/backpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_17/backpack_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack_three.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_17/backpack_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_17/backpack_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_17/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_17/factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/lesson_17/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_17/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api_gateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api_gateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/1_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/1_select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/2_selectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/2_selectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/3_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/3_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/4_async_gens.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/4_async_gens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/5_coroutines.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/5_coroutines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/6_del.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/6_del.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/7_asyncio_async_await.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/7_asyncio_async_await.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/8_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/8_async.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/8_async_with_gen_very_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/8_async_with_gen_very_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/8_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/8_asyncio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/original.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/original.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/molchanov/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/molchanov/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/run_asinc_aio_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/run_asinc_aio_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/run_async_aio_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/run_async_aio_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_aio/run_async_aio_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_aio/run_async_aio_three.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/python_cheat_en_two.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatGTP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/closures/book_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/closures/book_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/chain_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/chain_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/default_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/default_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/name_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/name_tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections_example/ordered_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/collections_example/ordered_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_threads_example/concurrency.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_threads_example/concurrency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_threads_example/threads_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_threads_example/threads_four.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_threads_example/threads_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_threads_example/threads_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_threads_example/threads_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_threads_example/threads_three.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency_threads_example/threads_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency_threads_example/threads_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorators/luchanos_02_@_interview.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorators/luchanos_02_@_interview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/args_kwargs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/eval_exec_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/eval_exec_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/fast_api_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/fast_api_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/hasattr_getattr_setattr_example_vars.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/hasattr_getattr_setattr_example_vars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/hash_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/hash_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/locals_globals_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/locals_globals_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/one/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/module_example/one/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/one/main_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/module_example/one/main_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/@classmethods_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/@classmethods_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/inheritance_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/inheritance_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/magic_methods/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/magic_methods/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/magic_methods/example_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/magic_methods/example_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/same_example_with_super_for_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/same_example_with_super_for_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/self_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/self_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/opp/work_with_var_of_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/opp/work_with_var_of_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/terminal_table_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/terminal_table_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/timeit_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/timeit_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/two/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/test_prog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_questions/two/main_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_questions/module_example/two/main_two.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interview_tasks_examples/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/decorator_for_measurment_time_of_work_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/decorator_example/decorator_for_measurment_time_of_work_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/encrypt_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/all_example/encrypt_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/generator_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generator_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/iterator_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/iterator_example/iterator_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/lambda_example/lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/map_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/map_example/map_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/prime_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/prime_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/some_example_with_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/some_example_with_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/string_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension_and_generators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension_and_generators/comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension_and_generators/comprehension_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension_tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension_and_generators/generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/append_extent.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/append_extent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/array_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/change_list_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/convert_dict_from_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/convert_dict_from_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/convert_list_to_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/convert_list_to_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/create_dict_by_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/create_dict_by_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/enumerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/enumerate_example/enumerate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/extract_number_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/extract_number_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/filter_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/filter_example/filter_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/filter_get_data_by_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/filter_example/filter_reduce_by_lambda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/find_all_numbers_disappeared_in_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_all_numbers_disappeared_in_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/find_all_permutations_of_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/find_all_permutations_of_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/find_different_sum_two_numbers_from_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/find_pairs_elements_of_list_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_pairs_elements_of_list_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/interdect_two_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/interdect_two_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/lines_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/list_to_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_to_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/longest_substring_without_repeating_characters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/product_numbers_from_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/product_numbers_from_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/recursive_sum_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/reverse_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/reverse_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/set_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/set_example/set_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/sort_list_with_quicksort_algoritm.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_with_quicksort_algoritm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_dict_set_array_enumerate_example/sorting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_tasks_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_tasks_example/arithmetic_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/arithmetic_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_tasks_example/check_prime_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/check_prime_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_tasks_example/max_munber.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/max_munber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_tasks_example/simple_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/simple_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/lesson_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/bubble_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/count_every_letter_in_world.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/count_letter_in_wold_more_than_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_letter_in_wold_more_than_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/find_dublicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_dublicates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/get_odd_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/get_odd_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/gl_count_of_words_dict_list_by_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/dict_example/gl_count_of_words_dict_list_by_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/max_not_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/max_not_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/polinomial_anogram_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/polinomial_anogram_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/quantity_words_in_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/quantity_words_in_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/reverse_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/reverse_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/separate_wold_by_capital_letter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/separate_wold_by_capital_letter_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/sort_list_1_0_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_1_0_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/same_type_of_sort/sum_of_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/sum_of_digits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/closure_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/all_example/closure_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/all_example/zip_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/all_example/zip_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/array_example/chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/chess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/array_example/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/knapsack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/array_example/quantity_of_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/array_example/quantity_of_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/filter_example/filter_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/filter_example/filter_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generator_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generator_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/generators_example/reverse_generator_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/generators_example/reverse_generator_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/iterator_example/iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/iterator_example/iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/lambda_example/lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/lambda_example/lambda_with_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/append_extent.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/append_extent_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/connect_two_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/connect_two_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/del_elements_from_list_by_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/del_elements_from_list_by_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/every_word_to_upper_from_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/every_word_to_upper_from_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/extract_number_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/extract_number_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_all_numbers_disappeared_in_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_all_numbers_disappeared_in_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_el_from_list_with_count_of_el_equal_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_el_from_list_with_count_of_el_equal_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_pairs_elements_of_list_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_pairs_elements_of_list_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_sublist_from_list_with_sum_equal_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/find_sublist_from_list_with_sum_equal_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/h_index_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/h_index_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/index_of_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/index_of_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/lcs_max_common_subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/lcs_max_common_subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/lis_max_increasing_subsequence_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/lis_max_increasing_subsequence_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_update_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/list_update_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/max_consecutive_ones.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/max_consecutive_ones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/product_numbers_from_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/product_numbers_from_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/replace_elements_in_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/replace_elements_in_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/robber_house_max_profit.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/robber_house_max_profit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/shift_left_right.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/shift_left_right.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_example_with_add_data_to_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_task_with_temperature_of_day.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_task_with_temperature_of_day.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_update_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/some_update_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/count_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/count_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/merge_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_of_list_by_lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_of_list_by_lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_with_quicksort_algoritm.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_list_with_quicksort_algoritm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_only_even_elements_in_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/sort_only_even_elements_in_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_example/check_triangle_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/check_triangle_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_example/gcd_example_max_common_divisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/gcd_example_max_common_divisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_example/generate_permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/generate_permutations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_example/pow_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/pow_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/number_example/sum_of_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/number_example/sum_of_digits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/on_future/find_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/on_future/find_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/factorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/algorithm_bmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/algorithm_bmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_deaf_rats.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_deaf_rats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_every_letter_in_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/count_every_letter_in_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/huffman_encode.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/huffman_encode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/kmp_substring_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/kmp_substring_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/levenshtein_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/levenshtein_distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/longest_substring_without_repeating_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/longest_substring_without_repeating_characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/separate_wold_by_capital_letter_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/separate_wold_by_capital_letter_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/string_example/string_example_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/string_example/string_example_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/triangle_print_example/print_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/triangle_print_example/print_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_set_example/dict_and_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/list_set_example/dict_and_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/book/log_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/book/log_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/book/log_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/book/log_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_2/main_lesson.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_2/main_lesson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_3/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_4/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_5/lesson/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_5/lesson/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_5/lesson/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_5/lesson/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_5/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_6/lesson/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_6/lesson/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_6/lesson/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_6/lesson/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/molchanov/lesson_6/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/molchanov/lesson_6/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/video_one/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/video_one/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/video_one/my_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/video_one/my_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/video_two/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/video_two/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_example/video_two/repository/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_example/video_two/repository/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiprocessing_example/processes_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_example/processes_one.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/multiprocessing_example/processes_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiprocessing_example/processes_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion_example/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion_example/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/recursion_example/recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opp_molchanov/scope_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/opp_molchanov/scope_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_test/request_2024/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/request_2024/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_test/request_2024/lesson_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/request_2024/lesson_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_test/request_2024/lesson_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_test/request_2024/lesson_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing_theory/testing_theory.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing_theory/testing_theory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,18 +340,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for main.test_retrieve_graphql_data_should_yield_ceo_elon_musk.executor": "Run",
+    "Python tests.Python tests in separate_wold_by_capital_letter_test.py.executor": "Run",
+    "Python.8_asyncio.executor": "Run",
     "Python.@classmethods_example.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.abstract_class.executor": "Run",
     "Python.algorithm_bmp.executor": "Run",
-    "Python.algorithm_eratosthenes_find_prime_numbers.executor": "Run",
+    "Python.algorithm_eratosthenes_find_prime_numbers.executor": "Debug",
     "Python.all_method_of_object_method_dir.executor": "Run",
+    "Python.and_or_example.executor": "Run",
     "Python.annotation_example.executor": "Run",
     "Python.append_extent.executor": "Run",
+    "Python.append_extent_index.executor": "Run",
     "Python.args_kwargs.executor": "Run",
     "Python.arithmetic_examole.executor": "Run",
+    "Python.arithmetic_example.executor": "Run",
     "Python.array_example.executor": "Run",
     "Python.async.executor": "Run",
+    "Python.attr_of_class_and_object.executor": "Run",
     "Python.attribute__dict__.executor": "Run",
     "Python.attribute_dict.executor": "Run",
     "Python.backpack.executor": "Run",
@@ -348,6 +370,7 @@
     "Python.chain_map.executor": "Run",
     "Python.change_list_data.executor": "Run",
     "Python.change_vars_example.executor": "Run",
+    "Python.check_prime_number.executor": "Run",
     "Python.check_simple_number.executor": "Run",
     "Python.check_triangle_number.executor": "Run",
     "Python.closure_example.executor": "Run",
@@ -371,7 +394,9 @@
     "Python.create_dict_by_class.executor": "Run",
     "Python.data_descriptor_1.executor": "Run",
     "Python.decorator_for_measurment_time_of_work_func.executor": "Run",
+    "Python.default_dict.executor": "Run",
     "Python.del_elements_from_list_by_number.executor": "Run",
+    "Python.descriptor_example.executor": "Run",
     "Python.dict_and_set.executor": "Run",
     "Python.difference_between__init__and__next__example_of_singelton.executor": "Run",
     "Python.different_between_==_and_is.executor": "Run",
@@ -387,9 +412,12 @@
     "Python.example_with_class_inheritance.executor": "Run",
     "Python.extract_number_example.executor": "Run",
     "Python.fibonacci.executor": "Run",
+    "Python.file.executor": "Run",
     "Python.filter_example.executor": "Run",
     "Python.filter_get_data_by_lambda.executor": "Run",
+    "Python.filter_reduce_by_lambda.executor": "Run",
     "Python.find_all_numbers_disappeared_in_array.executor": "Run",
+    "Python.find_all_numbers_disappeared_in_list.executor": "Run",
     "Python.find_all_permutations_of_string.executor": "Run",
     "Python.find_count_sequence_with_different_amount.executor": "Run",
     "Python.find_different_sum_two_numbers_from_array.executor": "Run",
@@ -405,22 +433,29 @@
     "Python.func_all.executor": "Run",
     "Python.function_example_with_list_as_arg.executor": "Run",
     "Python.gcd_example.executor": "Run",
+    "Python.gcd_example_max_common_divisor.executor": "Run",
     "Python.generate_permutations.executor": "Run",
     "Python.generator_example.executor": "Run",
+    "Python.generators.executor": "Run",
     "Python.get_data_of_diagonal.executor": "Run",
     "Python.get_dir_name_path_example.executor": "Run",
     "Python.get_odd_number.executor": "Run",
     "Python.gis_example.executor": "Run",
     "Python.gl.executor": "Run",
+    "Python.gl_example.executor": "Run",
+    "Python.gl_example_full.executor": "Run",
     "Python.h_index_example.executor": "Run",
     "Python.hasattr_getattr_setattr_example.executor": "Run",
     "Python.hasattr_getattr_setattr_example_vars.executor": "Run",
     "Python.hash_set.executor": "Run",
+    "Python.home.executor": "Run",
     "Python.huffman_encode.executor": "Run",
     "Python.huffman_two.executor": "Run",
+    "Python.if_example.executor": "Run",
     "Python.import_setting.executor": "Run",
     "Python.index_of_list.executor": "Run",
     "Python.inheritance_and_method_super.executor": "Run",
+    "Python.inheritance_example.executor": "Run",
     "Python.insert_choise_bubble_sort.executor": "Debug",
     "Python.interdect_two_list.executor": "Run",
     "Python.iterator.executor": "Run",
@@ -429,7 +464,9 @@
     "Python.kmp_substring_search.executor": "Run",
     "Python.kwargs_example.executor": "Run",
     "Python.lambda.executor": "Run",
+    "Python.lambda_with_key.executor": "Run",
     "Python.lcs_example.executor": "Run",
+    "Python.legb_example.executor": "Run",
     "Python.lesson_01.executor": "Run",
     "Python.lesson_02.executor": "Run",
     "Python.lesson_05.executor": "Run",
@@ -445,6 +482,7 @@
     "Python.lesson_14.executor": "Run",
     "Python.lesson_20.executor": "Run",
     "Python.lines_array.executor": "Run",
+    "Python.lis_max_increasing_subsequence_example.executor": "Run",
     "Python.list_methods.executor": "Run",
     "Python.list_to_str.executor": "Run",
     "Python.list_update_example.executor": "Run",
@@ -462,6 +500,7 @@
     "Python.main (5).executor": "Debug",
     "Python.main.executor": "Run",
     "Python.main_one.executor": "Run",
+    "Python.main_two (1).executor": "Run",
     "Python.main_two.executor": "Run",
     "Python.map_example.executor": "Run",
     "Python.max_changes_0_on_1.executor": "Run",
@@ -488,38 +527,48 @@
     "Python.product_numbers_from_list.executor": "Run",
     "Python.property_example.executor": "Run",
     "Python.python_version.executor": "Run",
+    "Python.quantity_links_for_object.executor": "Run",
     "Python.quantity_of_path.executor": "Run",
     "Python.quantity_words_in_str.executor": "Run",
     "Python.queue_methods.executor": "Run",
     "Python.quick_sort_list.executor": "Run",
     "Python.range_example.executor": "Run",
+    "Python.recursion.executor": "Run",
     "Python.recursive_sum_array.executor": "Run",
     "Python.recursive_sum_list.executor": "Run",
     "Python.reduce_exampl.executor": "Debug",
     "Python.replace_elements_in_list.executor": "Run",
     "Python.request_additional.executor": "Run",
     "Python.request_base.executor": "Run",
+    "Python.reverse_generator_example.executor": "Run",
     "Python.reverse_string.executor": "Run",
     "Python.reverse_words.executor": "Run",
     "Python.robber_house_max_profit.executor": "Run",
     "Python.run_asinc_aio_two.executor": "Run",
+    "Python.run_async_aio_one.executor": "Run",
     "Python.run_async_aio_three.executor": "Run",
     "Python.run_asyncaio.executor": "Run",
     "Python.same_example_with_super_for_class.executor": "Run",
+    "Python.scope_1.executor": "Run",
+    "Python.self_python.executor": "Run",
     "Python.separate_wold_by_capital_letter_test.executor": "Run",
     "Python.set_example.executor": "Run",
     "Python.shift_left_right.executor": "Run",
     "Python.shufle.executor": "Run",
     "Python.simple_number.executor": "Run",
+    "Python.some_example_with_add_data_to_list.executor": "Run",
     "Python.some_example_with_dict.executor": "Run",
-    "Python.some_task_with_temperature_of_day.executor": "Debug",
+    "Python.some_task_with_temperature_of_day.executor": "Run",
     "Python.some_update_list.executor": "Run",
     "Python.sort_list_1_0_1.executor": "Run",
+    "Python.sort_list_example.executor": "Run",
+    "Python.sort_list_of_list_by_lambda.executor": "Run",
     "Python.sort_list_with_quicksort_algoritm.executor": "Run",
     "Python.sort_only_even_elements_in_list.executor": "Run",
     "Python.sorting.executor": "Run",
     "Python.static_method.executor": "Run",
     "Python.string_example.executor": "Run",
+    "Python.string_example_two.executor": "Run",
     "Python.sum_of_digits.executor": "Run",
     "Python.switch.executor": "Run",
     "Python.task_from_apple.executor": "Run",
@@ -546,6 +595,7 @@
     "Python.try_exept_example.executor": "Run",
     "Python.unpacking_list_dict.executor": "Run",
     "Python.urllib_example.executor": "Run",
+    "Python.visability_global_var.executor": "Run",
     "Python.work_with_var_of_class.executor": "Run",
     "Python.zip_example.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -553,7 +603,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/oleg/PycharmProjects/python_test",
+    "last_opened_file_path": "/home/oleg/PycharmProjects/awdev-m2-qa-auto-test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -570,21 +620,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/log_example/book" />
+      <recent name="$PROJECT_DIR$/books" />
+      <recent name="$PROJECT_DIR$/interview_tasks_examples/set_example" />
       <recent name="$PROJECT_DIR$/interview_tasks_examples/array_example" />
       <recent name="$PROJECT_DIR$/algorithm" />
-      <recent name="$PROJECT_DIR$/async_aio" />
-      <recent name="$PROJECT_DIR$/log_example/molchanov" />
-      <recent name="$PROJECT_DIR$/books" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/network" />
+      <recent name="$PROJECT_DIR$/interview_tasks_examples/string_example" />
+      <recent name="$PROJECT_DIR$/interview_questions" />
+      <recent name="$PROJECT_DIR$/interview_questions/module_example" />
       <recent name="$PROJECT_DIR$/algorithm/lesson_17" />
-      <recent name="$PROJECT_DIR$/algorithm/lesson_17/backpack" />
-      <recent name="$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types" />
-      <recent name="$PROJECT_DIR$/interview_tasks_examples/on_future" />
-      <recent name="$PROJECT_DIR$/algorithm/lesson_14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.all_method_of_object_method_dir">
+  <component name="RunManager" selected="Python.args_kwargs">
     <configuration name="algorithm_bmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
@@ -598,7 +648,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/string_example/algorithm_bmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -608,7 +657,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="all_method_of_object_method_dir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="args_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -621,7 +670,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/all_method_of_object_method_dir.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/args_kwargs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -630,7 +679,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gl_example_full" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -643,8 +692,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/string_example/find_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/string_example/gl_example_full.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -653,7 +701,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="huffman_encode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hasattr_getattr_setattr_example_vars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -662,12 +710,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasks_examples/string_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/string_example/huffman_encode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_questions/hasattr_getattr_setattr_example_vars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -676,7 +723,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="huffman_two" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sum_of_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -685,12 +732,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasks_examples/string_example" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasks_examples/number_example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/string_example/huffman_two.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/number_example/sum_of_digits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -701,18 +747,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.all_method_of_object_method_dir" />
-        <item itemvalue="Python.find_example" />
+        <item itemvalue="Python.args_kwargs" />
+        <item itemvalue="Python.sum_of_digits" />
         <item itemvalue="Python.algorithm_bmp" />
-        <item itemvalue="Python.huffman_encode" />
-        <item itemvalue="Python.huffman_two" />
+        <item itemvalue="Python.gl_example_full" />
+        <item itemvalue="Python.hasattr_getattr_setattr_example_vars" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
       </set>
     </attachedChunks>
   </component>
@@ -916,6 +962,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -945,38 +994,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>88</line>
+          <line>89</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>90</line>
+          <line>91</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>92</line>
+          <line>93</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/lesson_17/backpack.py</url>
-          <line>98</line>
+          <line>99</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py</url>
@@ -1007,6 +1051,56 @@
           <url>file://$PROJECT_DIR$/interview_tasks_examples/all_example/reduce_exampl.py</url>
           <line>36</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/algorithm_eratosthenes_find_prime_numbers.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/binary_search.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interview_tasks_examples/list_example/sort_types/insert_choise_bubble_sort.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

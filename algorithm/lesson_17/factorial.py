@@ -39,13 +39,13 @@ import sys
 def factorial_recursive(n):
     if n == 0 or n == 1:
         return 1
-    return n * factorial_recursive(n-1)
+    return n * factorial_recursive(n - 1)
 
 
 def factorial_dp(n):
     fact_values = [1] * (n + 1)
     for i in range(2, n + 1):
-        fact_values[i] = i * fact_values[i-1]
+        fact_values[i] = i * fact_values[i - 1]
     return fact_values[n]
 
 

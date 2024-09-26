@@ -60,7 +60,7 @@ def func_pow(a: float, number: int) -> float:
     elif number % 2 == 1:
         return func_pow(a, number - 1) * a
     else:
-        return func_pow(a ** 2, number // 2)
+        return func_pow(a**2, number // 2)
 
 
 def hanoi(number, source, auxiliary, target):
@@ -75,7 +75,7 @@ def hanoi(number, source, auxiliary, target):
         hanoi(number - 1, auxiliary, source, target)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     matryoshka(5)
 
     # main()
@@ -92,4 +92,4 @@ if __name__ == '__main__':
     print(f"pow: {out_pow}")
 
     n = 3  # Количество дисков
-    hanoi(n, 'A', 'B', 'C')
+    hanoi(n, "A", "B", "C")

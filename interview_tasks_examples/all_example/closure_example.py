@@ -7,9 +7,10 @@
 def outer(x):
     def inner():
         return f"x is {x}"
+
     return inner
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     closure = outer(5)
     print(closure())

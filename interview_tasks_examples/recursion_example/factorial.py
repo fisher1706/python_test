@@ -12,7 +12,7 @@ def factorial_iterative(n):
     return result
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(factorial_iterative(7))
     print(factorial_recursive(0))
     print("*" * 200)

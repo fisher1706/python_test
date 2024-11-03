@@ -35,7 +35,7 @@ class Rect(Geom):
 if __name__ == "__main__":
     line = Line(0, 0, 10, 20)
     print(line.__dict__)
-    print("*" * 300)
+    print("*" * 200)
 
     react = Rect(1, 2, 3, 4)
     print(react.__dict__)

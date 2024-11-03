@@ -117,4 +117,22 @@ Yes, indentation is required in Python. A Python interpreter can be informed tha
 to a specific block of code by using Python indentation. Indentations make the code easy to read for developers
 in all programming languages but in Python, it is very important to indent the code in a specific order.
 
+
+SOLID
+    S – Single Responsibility
+        Each class should be responsible for only one operation.
+
+    O – Open-Closed
+        Classes should be open for extension, but closed for modification.
+
+    L – Liskov Substitution
+        If P is a subtype of T, then any objects of type T present in the program can be replaced by objects of type P
+        without negative consequences for the functionality of the program.
+
+    I – Interface Segregation
+        A client should not depend on methods it does not use.
+
+    D – Dependency Inversion
+        Top-level modules should not depend on lower-level modules. Both should depend on abstractions.
+        Abstractions should not depend on details. Details must depend on abstractions.
 """

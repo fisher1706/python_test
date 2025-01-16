@@ -192,7 +192,7 @@ HTML-формы на сервер для обработки. Они не кэш�
 8️⃣ TRACE: Используется для тестирования соединения по маршруту к ресурсу. Он выполняет циклический обход маршрутизации,
 который включает в себя передачу запроса через все узлы маршрута.
 """
-
+from pprint import pprint
 
 import requests
 
@@ -216,15 +216,17 @@ resp_post = requests.post(
 )
 
 if __name__ == "__main__":
-    if resp_get.status_code == 200:
-        print("ok")
+    # if resp_get.status_code == 200:
+    #     print("ok")
+    #
+    # if resp_get.ok:
+    #     print("ok")
+    #
+    # print(resp_get.raise_for_status())
+    # print(resp_get.text)
+    # print(resp_get.json()["headers"]["Host"])
+    # print(resp_get.json()["headers"])
+    #
+    # print(resp_post.json())
 
-    if resp_get.ok:
-        print("ok")
-
-    print(resp_get.raise_for_status())
-    print(resp_get.text)
-    print(resp_get.json()["headers"]["Host"])
-    print(resp_get.json()["headers"])
-
-    print(resp_post.json())
+    pprint(resp_get.content)

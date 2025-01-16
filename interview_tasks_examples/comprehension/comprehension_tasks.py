@@ -14,3 +14,7 @@ if __name__ == "__main__":
 
     change_dict(my_dict)
     convert_to_list(my_dict)
+
+    x = [str(i) for i in range(1, 11)]
+    y = " ".join(x)
+    print(y)

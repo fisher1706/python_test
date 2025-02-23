@@ -34,4 +34,3 @@ if __name__ == '__main__':
 
     out_dec = decode_string(out)
     print(out_dec)
-

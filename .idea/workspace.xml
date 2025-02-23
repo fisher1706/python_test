@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6edc163b-469e-4690-ae79-5b214a848adb" name="Default" comment="some_commit">
-      <change afterPath="$PROJECT_DIR$/gl_python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_10/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_2/questions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_2/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_3/questions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_3/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_4/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_5/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_5/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_6/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_6/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_7/questions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_7/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/chapter_8/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gl_python/some_home_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/request_test/request_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/request_test/request_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gl_python/chapter_4/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/gl_python/chapter_4/task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,306 +125,306 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for main.test_retrieve_graphql_data_should_yield_ceo_elon_musk.executor": "Run",
-    "Python tests.Python tests in separate_wold_by_capital_letter_test.py.executor": "Run",
-    "Python.8_asyncio.executor": "Run",
-    "Python.@classmethods_example.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.abstract_class.executor": "Run",
-    "Python.algorithm_bmp.executor": "Run",
-    "Python.algorithm_eratosthenes_find_prime_numbers.executor": "Debug",
-    "Python.all_method_of_object_method_dir.executor": "Run",
-    "Python.and_or_example.executor": "Run",
-    "Python.annotation_example.executor": "Run",
-    "Python.append_extent.executor": "Run",
-    "Python.append_extent_index.executor": "Run",
-    "Python.args_kwargs.executor": "Run",
-    "Python.arithmetic_examole.executor": "Run",
-    "Python.arithmetic_example.executor": "Run",
-    "Python.array_example.executor": "Run",
-    "Python.async.executor": "Run",
-    "Python.attr_of_class_and_object (1).executor": "Run",
-    "Python.attr_of_class_and_object.executor": "Run",
-    "Python.attribute__dict__.executor": "Run",
-    "Python.attribute_dict.executor": "Run",
-    "Python.backpack.executor": "Run",
-    "Python.backpack_two.executor": "Run",
-    "Python.binary_search.executor": "Run",
-    "Python.binary_to_int.executor": "Run",
-    "Python.book_example.executor": "Run",
-    "Python.bubble_sort.executor": "Run",
-    "Python.callable.executor": "Run",
-    "Python.chain_map.executor": "Run",
-    "Python.change_list_data.executor": "Run",
-    "Python.change_vars_example.executor": "Run",
-    "Python.check_prime_number.executor": "Run",
-    "Python.check_simple_number.executor": "Run",
-    "Python.check_triangle_number.executor": "Run",
-    "Python.classes_and_objects.executor": "Run",
-    "Python.closure_example.executor": "Run",
-    "Python.closures_interview.executor": "Run",
-    "Python.composition.executor": "Run",
-    "Python.comprehension.executor": "Run",
-    "Python.comprehension_tasks.executor": "Run",
-    "Python.concurrency.executor": "Run",
-    "Python.connect_two_list.executor": "Run",
-    "Python.content_manager.executor": "Run",
-    "Python.context_manager.executor": "Run",
-    "Python.convert_dict_from_list.executor": "Run",
-    "Python.convert_list_to_string.executor": "Run",
-    "Python.copy_deepcopy.executor": "Run",
-    "Python.corutine_example.executor": "Run",
-    "Python.count_capital_letter_word.executor": "Run",
-    "Python.count_deaf_rats.executor": "Run",
-    "Python.count_every_letter_in_world.executor": "Run",
-    "Python.count_letter_in_wold_more_than_one.executor": "Run",
-    "Python.count_sort.executor": "Run",
-    "Python.counter.executor": "Run",
-    "Python.create_dict_by_class.executor": "Run",
-    "Python.data_descriptor_1.executor": "Run",
-    "Python.db.executor": "Run",
-    "Python.decorator_class.executor": "Run",
-    "Python.decorator_for_measurment_time_of_work_func.executor": "Run",
-    "Python.decorstor_function.executor": "Run",
-    "Python.default_dict.executor": "Run",
-    "Python.del_elements_from_list_by_number.executor": "Run",
-    "Python.descriptor.executor": "Run",
-    "Python.descriptor_example.executor": "Run",
-    "Python.dict_and_set.executor": "Run",
-    "Python.difference_between__init__and__next__example_of_singelton.executor": "Run",
-    "Python.different_between_==_and_is.executor": "Run",
-    "Python.dir_name.executor": "Run",
-    "Python.documentation.executor": "Run",
-    "Python.edi_856_example.executor": "Run",
-    "Python.egoroff_interview.executor": "Run",
-    "Python.encapsulation.executor": "Run",
-    "Python.encrypt_message.executor": "Run",
-    "Python.enumerate.executor": "Run",
-    "Python.eval_exec_example.executor": "Run",
-    "Python.every_word_to_upper_from_list.executor": "Run",
-    "Python.example_01.executor": "Run",
-    "Python.example_with_class_inheritance.executor": "Run",
-    "Python.extract_number_example.executor": "Run",
-    "Python.fibonacci.executor": "Run",
-    "Python.file.executor": "Run",
-    "Python.filter_example.executor": "Run",
-    "Python.filter_get_data_by_lambda.executor": "Run",
-    "Python.filter_reduce_by_lambda.executor": "Run",
-    "Python.find_all_numbers_disappeared_in_array.executor": "Run",
-    "Python.find_all_numbers_disappeared_in_list.executor": "Run",
-    "Python.find_all_permutations_of_string.executor": "Run",
-    "Python.find_count_sequence_with_different_amount.executor": "Run",
-    "Python.find_different_sum_two_numbers_from_array.executor": "Run",
-    "Python.find_different_sum_two_numbers_from_list.executor": "Run",
-    "Python.find_dublicates.executor": "Run",
-    "Python.find_el_from_list_with_count_of_el_equal_number.executor": "Run",
-    "Python.find_el_from_list_without_pair.executor": "Run",
-    "Python.find_example.executor": "Run",
-    "Python.find_pairs_elements_of_list_sum.executor": "Run",
-    "Python.find_pairs_numbers_in_list.executor": "Run",
-    "Python.find_quantity_lists_from_array_with_sum.executor": "Run",
-    "Python.find_sublist_from_list_with_sum_equal_number.executor": "Run",
-    "Python.func_all.executor": "Run",
-    "Python.function_example_with_list_as_arg.executor": "Run",
-    "Python.gcd_example.executor": "Run",
-    "Python.gcd_example_max_common_divisor.executor": "Run",
-    "Python.generate_permutations.executor": "Run",
-    "Python.generator.executor": "Run",
-    "Python.generator_example.executor": "Run",
-    "Python.generators.executor": "Run",
-    "Python.get_data_of_diagonal.executor": "Run",
-    "Python.get_dir_name_path_example.executor": "Run",
-    "Python.get_odd_number.executor": "Run",
-    "Python.gis_example.executor": "Run",
-    "Python.gl.executor": "Run",
-    "Python.gl_example.executor": "Run",
-    "Python.gl_example_full.executor": "Run",
-    "Python.h_index_example.executor": "Run",
-    "Python.hasattr_getattr_setattr_example.executor": "Run",
-    "Python.hasattr_getattr_setattr_example_vars.executor": "Run",
-    "Python.hash_generate_example.executor": "Run",
-    "Python.hash_set.executor": "Run",
-    "Python.home.executor": "Run",
-    "Python.huffman_encode.executor": "Run",
-    "Python.huffman_two.executor": "Run",
-    "Python.if_example.executor": "Run",
-    "Python.import_setting.executor": "Run",
-    "Python.index_of_list.executor": "Run",
-    "Python.inheritance.executor": "Run",
-    "Python.inheritance_and_method_super.executor": "Run",
-    "Python.inheritance_example.executor": "Run",
-    "Python.insert_choise_bubble_sort.executor": "Debug",
-    "Python.interdect_two_list.executor": "Run",
-    "Python.iterator.executor": "Run",
-    "Python.iterator_example.executor": "Run",
-    "Python.json_example.executor": "Run",
-    "Python.kmp_substring_search.executor": "Run",
-    "Python.kwargs_example.executor": "Run",
-    "Python.lambda.executor": "Run",
-    "Python.lambda_with_key.executor": "Run",
-    "Python.lcs_example.executor": "Run",
-    "Python.legb_example.executor": "Run",
-    "Python.lesson_01.executor": "Run",
-    "Python.lesson_02.executor": "Run",
-    "Python.lesson_05.executor": "Run",
-    "Python.lesson_06.executor": "Run",
-    "Python.lesson_07.executor": "Run",
-    "Python.lesson_08.executor": "Run",
-    "Python.lesson_09.executor": "Run",
-    "Python.lesson_10.executor": "Run",
-    "Python.lesson_10_1.executor": "Run",
-    "Python.lesson_11.executor": "Run",
-    "Python.lesson_12.executor": "Run",
-    "Python.lesson_13.executor": "Run",
-    "Python.lesson_14.executor": "Run",
-    "Python.lesson_20.executor": "Run",
-    "Python.lines_array.executor": "Run",
-    "Python.lis_max_increasing_subsequence_example.executor": "Run",
-    "Python.list_methods.executor": "Run",
-    "Python.list_to_str.executor": "Run",
-    "Python.list_update_example.executor": "Run",
-    "Python.locals_globals_example.executor": "Run",
-    "Python.log_one (1).executor": "Run",
-    "Python.log_one.executor": "Run",
-    "Python.log_two.executor": "Run",
-    "Python.longest_substring_without_repeating_characters (1).executor": "Run",
-    "Python.longest_substring_without_repeating_characters.executor": "Run",
-    "Python.luchanos_02_@_interview.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Run",
-    "Python.main (5).executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.main_one.executor": "Run",
-    "Python.main_two (1).executor": "Run",
-    "Python.main_two.executor": "Run",
-    "Python.map_example.executor": "Run",
-    "Python.max_changes_0_on_1.executor": "Run",
-    "Python.max_consecutive_ones.executor": "Run",
-    "Python.max_munber.executor": "Run",
-    "Python.max_not_number.executor": "Run",
-    "Python.metaclass.executor": "Run",
-    "Python.method_id.executor": "Run",
-    "Python.minus_one.executor": "Run",
-    "Python.mixin_example.executor": "Run",
-    "Python.mro_example.executor": "Run",
-    "Python.multiple_inheritance.executor": "Run",
-    "Python.name_tuple.executor": "Run",
-    "Python.opp_all_example.executor": "Run",
-    "Python.opp_example.executor": "Run",
-    "Python.override_example.executor": "Run",
-    "Python.pickle_example.executor": "Run",
-    "Python.pikle_example.executor": "Run",
-    "Python.polimorphism.executor": "Debug",
-    "Python.polinomial_anogram_example.executor": "Run",
-    "Python.polinomial_example.executor": "Run",
-    "Python.polish_notation.executor": "Run",
-    "Python.pow_example.executor": "Run",
-    "Python.prime_generator.executor": "Run",
-    "Python.print_square.executor": "Run",
-    "Python.product_numbers_from_list.executor": "Run",
-    "Python.property.executor": "Run",
-    "Python.property_example.executor": "Run",
-    "Python.python_version.executor": "Run",
-    "Python.quantity_links_for_object.executor": "Run",
-    "Python.quantity_of_path.executor": "Run",
-    "Python.quantity_words_in_str.executor": "Run",
-    "Python.questions.executor": "Run",
-    "Python.queue_methods.executor": "Run",
-    "Python.quick_sort_list.executor": "Run",
-    "Python.range_example.executor": "Run",
-    "Python.recursion.executor": "Run",
-    "Python.recursive_sum_array.executor": "Run",
-    "Python.recursive_sum_list.executor": "Run",
-    "Python.reduce_exampl.executor": "Debug",
-    "Python.replace_elements_in_list.executor": "Run",
-    "Python.request_additional.executor": "Run",
-    "Python.request_base.executor": "Debug",
-    "Python.reverse_generator_example.executor": "Run",
-    "Python.reverse_string.executor": "Run",
-    "Python.reverse_words.executor": "Run",
-    "Python.robber_house_max_profit.executor": "Run",
-    "Python.run_asinc_aio_two.executor": "Run",
-    "Python.run_async_aio_one.executor": "Run",
-    "Python.run_async_aio_three.executor": "Run",
-    "Python.run_asyncaio.executor": "Run",
-    "Python.same_example_with_super_for_class.executor": "Run",
-    "Python.scope_1.executor": "Run",
-    "Python.self_class_static_method.executor": "Run",
-    "Python.self_python.executor": "Run",
-    "Python.separate_wold_by_capital_letter_test.executor": "Run",
-    "Python.set_example.executor": "Run",
-    "Python.shift_left_right.executor": "Run",
-    "Python.shufle.executor": "Run",
-    "Python.simple_number.executor": "Run",
-    "Python.slots.executor": "Run",
-    "Python.some_example_with_add_data_to_list.executor": "Run",
-    "Python.some_example_with_dict.executor": "Run",
-    "Python.some_task_with_temperature_of_day.executor": "Run",
-    "Python.some_update_list.executor": "Run",
-    "Python.sort_list_1_0_1.executor": "Run",
-    "Python.sort_list_example.executor": "Run",
-    "Python.sort_list_of_list_by_lambda.executor": "Run",
-    "Python.sort_list_with_quicksort_algoritm.executor": "Run",
-    "Python.sort_only_even_elements_in_list.executor": "Run",
-    "Python.sorting.executor": "Run",
-    "Python.static_method.executor": "Run",
-    "Python.string_example.executor": "Run",
-    "Python.string_example_two.executor": "Run",
-    "Python.sum_of_digits.executor": "Run",
-    "Python.switch.executor": "Run",
-    "Python.task (1).executor": "Run",
-    "Python.task (2).executor": "Run",
-    "Python.task (3).executor": "Run",
-    "Python.task (4).executor": "Run",
-    "Python.task (5).executor": "Run",
-    "Python.task.executor": "Run",
-    "Python.task_from_apple.executor": "Run",
-    "Python.terminal_table_example.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test_01 (1).executor": "Run",
-    "Python.test_01.executor": "Run",
-    "Python.test_01_interview.executor": "Run",
-    "Python.test_02.executor": "Run",
-    "Python.test_02_by_class.executor": "Run",
-    "Python.test_02_interview.executor": "Run",
-    "Python.test_02_singleton.executor": "Run",
-    "Python.test_04_interview.executor": "Run",
-    "Python.test_put.executor": "Debug",
-    "Python.threading_example.executor": "Run",
-    "Python.threads.executor": "Run",
-    "Python.threads_four.executor": "Run",
-    "Python.threads_one.executor": "Run",
-    "Python.threads_three.executor": "Run",
-    "Python.threads_two.executor": "Run",
-    "Python.timeit_example.executor": "Run",
-    "Python.triangle_example.executor": "Run",
-    "Python.triangle_example_two.executor": "Run",
-    "Python.try_exept_example.executor": "Run",
-    "Python.unpacking_list_dict.executor": "Run",
-    "Python.urllib_example.executor": "Run",
-    "Python.visability_global_var.executor": "Run",
-    "Python.work_with_var_of_class.executor": "Run",
-    "Python.zip_example.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/oleg/PycharmProjects/qa-oneauto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for main.test_retrieve_graphql_data_should_yield_ceo_elon_musk.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in separate_wold_by_capital_letter_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8_asyncio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.@classmethods_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.abstract_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algorithm_bmp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algorithm_eratosthenes_find_prime_numbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.all_method_of_object_method_dir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.and_or_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.annotation_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_extent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_extent_index.executor&quot;: &quot;Run&quot;,
+    &quot;Python.args_kwargs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_examole.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.array_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.async.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attr_of_class_and_object (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.attr_of_class_and_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attribute__dict__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.attribute_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.backpack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.backpack_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_to_int.executor&quot;: &quot;Run&quot;,
+    &quot;Python.book_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bubble_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.callable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chain_map.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change_list_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change_vars_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_prime_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_simple_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_triangle_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classes_and_objects.executor&quot;: &quot;Run&quot;,
+    &quot;Python.closure_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.closures_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.composition.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comprehension_tasks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.concurrency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.connect_two_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.content_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.context_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_dict_from_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_list_to_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_deepcopy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.corutine_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_capital_letter_word.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_deaf_rats.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_every_letter_in_world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_letter_in_wold_more_than_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.counter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_dict_by_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_descriptor_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorator_for_measurment_time_of_work_func.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorstor_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.default_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.del_elements_from_list_by_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.descriptor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.descriptor_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_and_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.difference_between__init__and__next__example_of_singelton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.different_between_==_and_is.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dir_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.documentation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.edi_856_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.egoroff_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encrypt_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumerate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval_exec_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.every_word_to_upper_from_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example_with_class_inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extract_number_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter_get_data_by_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter_reduce_by_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_all_numbers_disappeared_in_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_all_numbers_disappeared_in_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_all_permutations_of_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_count_sequence_with_different_amount.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_different_sum_two_numbers_from_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_different_sum_two_numbers_from_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_dublicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_el_from_list_with_count_of_el_equal_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_el_from_list_without_pair.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_pairs_elements_of_list_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_pairs_numbers_in_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_quantity_lists_from_array_with_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_sublist_from_list_with_sum_equal_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.func_all.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_example_with_list_as_arg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gcd_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gcd_example_max_common_divisor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generator_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_data_of_diagonal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_dir_name_path_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.get_odd_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gis_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gl_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gl_example_full.executor&quot;: &quot;Run&quot;,
+    &quot;Python.h_index_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hasattr_getattr_setattr_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hasattr_getattr_setattr_example_vars.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash_generate_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.home.executor&quot;: &quot;Run&quot;,
+    &quot;Python.huffman_encode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.huffman_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.import_setting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.index_of_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance_and_method_super.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.insert_choise_bubble_sort.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.interdect_two_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterator_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.json_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kmp_substring_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kwargs_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lambda_with_key.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lcs_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.legb_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_10_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson_20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lines_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lis_max_increasing_subsequence_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_to_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list_update_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locals_globals_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_one (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_substring_without_repeating_characters (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_substring_without_repeating_characters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.luchanos_02_@_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_two (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.map_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_changes_0_on_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_consecutive_ones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_munber.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_not_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metaclass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.method_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python.minus_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mixin_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mro_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiple_inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.name_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.opp_all_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.opp_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.override_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pickle_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pikle_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polimorphism.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.polinomial_anogram_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polinomial_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polish_notation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pow_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prime_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print_square.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_numbers_from_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.property.executor&quot;: &quot;Run&quot;,
+    &quot;Python.property_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_version.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quantity_links_for_object.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quantity_of_path.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quantity_words_in_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.questions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.queue_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quick_sort_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.range_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recursive_sum_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recursive_sum_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reduce_exampl.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.replace_elements_in_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.request_additional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.request_base.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.reverse_generator_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reverse_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reverse_words.executor&quot;: &quot;Run&quot;,
+    &quot;Python.robber_house_max_profit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_asinc_aio_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_async_aio_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_async_aio_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_asyncaio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.same_example_with_super_for_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scope_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.self_class_static_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.self_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.separate_wold_by_capital_letter_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.set_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shift_left_right.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shufle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slots.executor&quot;: &quot;Run&quot;,
+    &quot;Python.some_example_with_add_data_to_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.some_example_with_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.some_task_with_temperature_of_day.executor&quot;: &quot;Run&quot;,
+    &quot;Python.some_update_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_list_1_0_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_list_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_list_of_list_by_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_list_with_quicksort_algoritm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_only_even_elements_in_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sorting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.static_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_example_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sum_of_digits.executor&quot;: &quot;Run&quot;,
+    &quot;Python.switch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_from_apple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.terminal_table_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_01 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_01_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02_by_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_02_singleton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_04_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_put.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.threading_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threads.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threads_four.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threads_one.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threads_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threads_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.timeit_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.triangle_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.triangle_example_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.try_exept_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unpacking_list_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urllib_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visability_global_var.executor&quot;: &quot;Run&quot;,
+    &quot;Python.work_with_var_of_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zip_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/oleg/PycharmProjects/awdev-m2-qa-auto-test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
     <option name="mySupportGeventDebugging" value="true" />
@@ -468,8 +446,8 @@
       <recent name="$PROJECT_DIR$/api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.comprehension_tasks">
-    <configuration name="comprehension_tasks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="filter_reduce_by_lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_test" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -478,104 +456,22 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasks_examples/comprehension" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_NAME" value="Python 3.10 (python_test)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interview_tasks_examples/filter_example" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/comprehension/comprehension_tasks.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="questions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_python/chapter_7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_python/chapter_7/questions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_python/chapter_6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_python/chapter_6/task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_python/chapter_7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_python/chapter_7/task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_test" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gl_python/chapter_8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gl_python/chapter_8/task.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview_tasks_examples/filter_example/filter_reduce_by_lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -586,19 +482,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.comprehension_tasks" />
-        <item itemvalue="Python.task" />
-        <item itemvalue="Python.questions" />
-        <item itemvalue="Python.task (5)" />
-        <item itemvalue="Python.task (4)" />
+        <item itemvalue="Python.filter_reduce_by_lambda" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
-        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>

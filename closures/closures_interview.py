@@ -30,8 +30,8 @@ inner_function и хранит значение x как 10.
 
 if __name__ == "__main__":
     closures = outer_function(10)
-    print(closures.__closure__)
-    print(closures.__name__)
+    print(f"closures: {closures.__closure__}")
+    print(f"name: {closures.__name__}")
     print(closures(5))
     print(closures(10))
     print("*" * 200)

@@ -32,8 +32,8 @@ local
 
 
 def local_example_one(some_list):
-    for element in some_list:
-        print(element)
+    for el in some_list:
+        print(el)
 
 
 """
@@ -45,8 +45,8 @@ print(element), то получим ошибку: NameError: name 'element' is n
 
 
 def local_example_two(some_list):
-    for element in some_list:
-        print(element)
+    for el in some_list:
+        print(el)
 
 
 """

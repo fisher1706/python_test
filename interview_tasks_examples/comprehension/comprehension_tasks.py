@@ -10,7 +10,11 @@ def convert_to_list(data):
 
 
 if __name__ == "__main__":
-    my_dict = {"key1": [1, 2, 3, 4], "key2": [5, 6, 7, 8], "key3": [9, 10, 11, 12]}
+    my_dict = {
+        "key1": [1, 2, 3, 4],
+        "key2": [5, 6, 7, 8],
+        "key3": [9, 10, 11, 12]
+    }
 
     change_dict(my_dict)
     convert_to_list(my_dict)

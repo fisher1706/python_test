@@ -12,7 +12,7 @@ class MyBaseClass:
 
 def monkey_patch():
     def new_method(self):
-        print("New method called")
+        print(f"New method called: {self}")
 
     MyBaseClass.my_method = new_method
 

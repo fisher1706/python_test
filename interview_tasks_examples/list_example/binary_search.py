@@ -1,11 +1,10 @@
+# https://www.youtube.com/watch?v=qwgjFDbInao
+
 def binary_search_iterative(arr, target):
     left, right = 0, len(arr) - 1
 
     while left <= right:
         mid = left + (right - left) // 2
-        # print(f"mid: {mid}")
-        # print(f"left: {left}")
-        # print(f"right: {right}")
 
         # Проверка, если средний элемент - искомый
         if arr[mid] == target:

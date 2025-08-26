@@ -45,3 +45,7 @@ cba
 
 if __name__ == "__main__":
     print(get_permutations("nan"))
+
+    data = [1, 2, 3]
+    print(data[:1])
+    print(data[1:])

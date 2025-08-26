@@ -11,9 +11,7 @@ def second_outer(**dkwargs):
                 except ZeroDivisionError as err:
                     print(f"Error: {err}, attempts left: {attempts}")
                     attempts -= 1
-
         return inner
-
     return outer
 
 

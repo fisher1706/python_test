@@ -4,9 +4,9 @@ import time
 
 def func_wrapper_time(func):
     def wrapper(*args, **kwargs):
-        statr = datetime.now()
+        start = datetime.now()
         result = func(*args, **kwargs)
-        delta_time = datetime.now() - statr
+        delta_time = datetime.now() - start
         print(f"execution_time: {delta_time}")
         return result
 

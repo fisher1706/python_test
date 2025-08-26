@@ -1,5 +1,5 @@
 """
-RESTful (REpresentational State Transfer):
+RESTful (Representational State Transfer):
 RESTful APIs leverage the standard HTTP methods (GET, POST, PUT, DELETE) for data manipulation.
 They are well-suited for web-based applications and known for their statelessness, cacheability,
 and use of a uniform interface.
@@ -43,7 +43,7 @@ WebSockets обеспечивают двустороннюю связь межд
 API-интерфейсы GraphQL предоставляют гибкий и эффективный способ получения данных. Они позволяют клиентам запрашивать
 только те данные, которые им нужны, сокращая объем передаваемых данных.
 
-гРПК:
+gRPC:
 gRPC — это высокопроизводительная среда RPC, разработанная Google. Он использует буферы протоколов для сериализации
 данных, что приводит к эффективной передаче данных.
 

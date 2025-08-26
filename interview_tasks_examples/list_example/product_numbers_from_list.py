@@ -2,38 +2,29 @@ from functools import reduce
 
 
 def extract_number(data):
-    out = []
-
-    if type(data) == int:
-        out.append(data)
-
-    if type(data) == list or type(data) == tuple or type(data) == set:
-        for j in data:
-            if type(j) == int:
-                out.append(j)
-    return out
+    if isinstance(data, int):
+        return [data]
+    if isinstance(data, (list, tuple, set)):
+        return [j for j in data if isinstance(j, int)]
+    return []
 
 
 def list_product(data):
     l1 = []
     for i in data:
-        if type(i) == dict:
-            for j in list(i.values()):
-                (
-                    l1.extend(extract_number(j))
-                    if type(extract_number(j)) == list
-                    else None
-                )
-            for j in list(i.keys()):
-                (
-                    l1.extend(extract_number(j))
-                    if type(extract_number(j)) == list
-                    else None
-                )
+        if isinstance(i, dict):
+            for j in list(i.values()) + list(i.keys()):
+                l1.extend(extract_number(j))
         else:
-            l1.extend(extract_number(i)) if type(extract_number(i)) == list else None
+            l1.extend(extract_number(i))
+
+    print(f"l1: {l1}")
+
+    if not l1:
+        return None  # or 1, depending on desired behavior
 
     return reduce(lambda x, y: x * y, l1)
+
 
 
 if __name__ == "__main__":

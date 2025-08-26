@@ -11,7 +11,7 @@ Dive into the fundamentals of diverse authentication techniques to bolster your 
   Deployment: Ideal for server to server communication; safeguard keys diligently.
 
 3. OAuth: 🌐
-  Mechanism: Leverages thirdparty verification for granting access with specific, userdefined limitations.
+  Mechanism: Leverages third party verification for granting access with specific, userdefined limitations.
   Deployment: Offers comprehensive user authorization, prevalent in social media platform integrations.
 
 4. Token Authentication: 🎟️

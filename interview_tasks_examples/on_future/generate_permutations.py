@@ -55,7 +55,7 @@ def find(num: int, data: list) -> bool:
         if num == x:
             flag = True
             break
-        return flag
+    return flag
 
 
 if __name__ == "__main__":

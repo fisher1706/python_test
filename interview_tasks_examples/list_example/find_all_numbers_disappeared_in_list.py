@@ -15,8 +15,7 @@ def find_disappeared_numbers_two(nums):
     # пример с 4: 4 - 1 = 3 -> на ch[3] = 1, если после прогона всех чисел ch[n] = 0 -> n - нет в списке
     for el in nums:
         ch[el - 1] += 1
-        print(f"el: {el}")
-        print(f"ch: {ch}")
+    print()
 
     net = []
     for n in range(len(ch)):

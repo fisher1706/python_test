@@ -1,7 +1,7 @@
 import random
 
 
-def counter(number=9):
+def counter(number=8):
     slave = [random.randint(0, 1) for _ in range(number)]
     print("slave: ", slave)
 
@@ -20,4 +20,6 @@ def counter(number=9):
 
 
 if __name__ == "__main__":
-    counter()
+    counter(8)
+    counter(9)
+

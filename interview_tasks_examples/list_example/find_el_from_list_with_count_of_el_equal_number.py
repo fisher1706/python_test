@@ -1,6 +1,4 @@
-def find_el_from_list_with_count_of_el_equal_number(
-    my_list: list, number: int = 1
-) -> dict:
+def find_el_from_list_with_count_of_el_equal_number(my_list: list, number: int = 1) -> dict:
     out = {el: my_list.count(el) for el in my_list if my_list.count(el) == number}
     return out
 

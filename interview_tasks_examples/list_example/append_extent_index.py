@@ -26,3 +26,4 @@ if __name__ == "__main__":
 
     print(a)
     print(a.index([4, 5, 6]))
+    print(a.index(2))

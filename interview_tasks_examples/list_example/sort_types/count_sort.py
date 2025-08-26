@@ -9,9 +9,9 @@ def count_sort(data: list) -> list:
     f = [0] * (len(data) + 1)
 
     for x in data:
-        print(f"x: {x}, f[x] + 1: {f[x] + 1}")
         f[x] += 1
-        print(f"f: {f}")
+
+    print(f)
 
     inner = [[i] * f[i] for i in range(len(f)) if f[i]]
     print(f"inner: {inner}")

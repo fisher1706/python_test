@@ -1,5 +1,4 @@
 # https://www.youtube.com/watch?v=euoN2zO7zao&list=PLysMDSbb9Hcyxwq966ET1_6dXkNF_PW0L&index=2
-# https://www.youtube.com/watch?v=5tdXjicpta4
 
 
 def recursive_sum(*args, path: list[int] = None):
@@ -21,3 +20,9 @@ if __name__ == "__main__":
 
     out = recursive_sum(data)
     print(out)
+
+    print("*" * 100)
+    a = []
+    b = [1]
+    c = [2]
+    print(a + b + c)  # [1, 2]

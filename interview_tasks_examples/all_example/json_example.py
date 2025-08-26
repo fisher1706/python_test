@@ -1,7 +1,10 @@
 import json
 
 
-data = {"president": {"name": "Zaphod Beeblebrox", "species": "Betelgeusian"}}
+data = {
+    "president": {"name": "Zaphod Beeblebrox",
+    "species": "Betelgeusian"}
+}
 
 
 if __name__ == "__main__":

@@ -7,4 +7,4 @@ def star_triangle(r):
 
 
 if __name__ == "__main__":
-    star_triangle(2)
+    star_triangle(5)

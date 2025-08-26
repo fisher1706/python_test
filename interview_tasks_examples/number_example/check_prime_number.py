@@ -13,5 +13,5 @@ def check_prime_number(number):
 
 
 if __name__ == "__main__":
-    n = 8
+    n = 7
     check_prime_number(n)

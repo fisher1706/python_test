@@ -15,7 +15,7 @@ def check_triangle_number(n: int) -> bool:
 
 
 if __name__ == "__main__":
-    num = 0
+    num = 66
 
     out = check_triangle_number(num)
     print(out)

@@ -1,0 +1,73 @@
+Selenium vs Playwright
+
+If briefly: Selenium is a mature, universal browser automation standard
+with maximum compatibility, while Playwright is a modern framework
+focused on speed, reliability, and developer experience.
+
+Key Differences
+
+  -----------------------------------------------------------------------
+  Criterion               Selenium                Playwright
+  ----------------------- ----------------------- -----------------------
+  Architecture            WebDriver               Direct browser protocol
+
+  Speed                   Lower                   Higher
+
+  Auto-waits              Mostly manual           Built-in
+
+  Setup                   More complex            Easier
+
+  Browsers                Chrome, Firefox, Edge,  Chromium, Firefox,
+                          Safari, etc.            WebKit
+
+  Mobile                  Via Appium              Device emulation
+  -----------------------------------------------------------------------
+
+Architecture
+
+-   Selenium communicates through WebDriver.
+-   Playwright communicates directly with the browser.
+
+Automatic waits
+
+Selenium often requires explicit waits. Playwright automatically waits
+for elements to become actionable.
+
+Performance
+
+Playwright is generally faster due to fewer intermediate layers.
+
+Selectors
+
+Playwright provides modern locators such as: - get_by_role() -
+get_by_text() - get_by_label()
+
+Network features
+
+Playwright supports request interception, response waiting, API mocking,
+HAR, tracing, screenshots, and video recording out of the box.
+
+Parallel execution
+
+Playwright was designed for parallel execution using Browser,
+BrowserContext, and Page.
+
+When to choose Selenium
+
+-   Existing Selenium infrastructure
+-   Broad browser compatibility
+-   Enterprise environments
+
+When to choose Playwright
+
+-   New automation projects
+-   Faster and more stable tests
+-   Simpler API
+-   Rich built-in tooling
+
+Conclusion
+
+For new web automation projects, Playwright is often the preferred
+choice because of its modern architecture and built-in reliability.
+Selenium remains an excellent choice for legacy systems, enterprise
+environments, and projects that depend on the WebDriver ecosystem.

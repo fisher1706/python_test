@@ -44,6 +44,11 @@ class ThingData:
 __init()__, __repr__, __eq__
 """
 
+@dataclass
+class Users:
+    admin: str = "admin"
+    guest: str = "guest"
+
 if __name__ == "__main__":
     t_1 = Thing("interview_questions", 100, 1024)
     print(t_1)

@@ -4,8 +4,8 @@ find duplicates
 
 
 def get_duplicates(example_list):
-    new_list = list()
-    duplicates = list()
+    new_list = []
+    duplicates = []
     for el in example_list:
         if el in new_list:
             duplicates.append(el)

@@ -5,20 +5,20 @@
 
 class Person:
     def __init__(self, name, old):
-        self.__name = name
-        self.__old = old
+        self._name = name
+        self._old = old
 
     @property
     def old(self):
-        return self.__old
+        return self._old
 
     @old.setter
     def old(self, old):
-        self.__old = old
+        self._old = old
 
     @old.deleter
     def old(self):
-        del self.__old
+        del self._old
 
 
 if __name__ == "__main__":

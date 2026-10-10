@@ -10,6 +10,7 @@ def reduce(func, iterable, initial):
     for item in iterable:
         result = func(result, item)
     return result
+    
 В данном примере на вход функции reduce передаются три аргумента:
 
 func — функция, которую мы будем применять к элементам iterable

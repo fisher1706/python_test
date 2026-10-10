@@ -1,7 +1,9 @@
 def range_example(num: int) -> int:
     out = None
     for i in range(num):
+        print(i)
         out = i * 3
+        print(out)
     return out
 
 

@@ -48,7 +48,7 @@ REST и SOAP
 Определения услуг
 - SOAP использует WSDL (Web Services Description Language) — язык описания веб-сервисов и доступа к ним,
   основанный на языке XML
-- REST не имеет стандартного языка определения сервиса. Несмотря на то, что WADL был одним из первых предложенных
+- REST не имеет стандартного языка определения сервиса. Несмотря на то, что WSDL был одним из первых предложенных
   стандартов, он не очень популярен. Более популярно использование Swagger или Open API
 
 Транспорт
@@ -219,22 +219,23 @@ POST
 resp_post = requests.post(
     url=URL_POST,
     headers=headers,
-    params={"a": "b"},
-    json={"username": "supersecret"}
+    json={"username": "supersecret"},
+    verify=False
+
 )
 
 if __name__ == "__main__":
-    # if resp_get.status_code == 200:
-    #     print("ok")
-    #
-    # if resp_get.ok:
-    #     print("ok")
-    #
-    # print(resp_get.raise_for_status())
-    # print(resp_get.text)
-    # print(resp_get.json()["headers"]["Host"])
-    # print(resp_get.json()["headers"])
-    #
-    # print(resp_post.json())
+    if resp_get.status_code == 200:
+        print("ok")
+
+    if resp_get.ok:
+        print("ok")
+
+    print(resp_get.raise_for_status())
+    print(resp_get.text)
+    print(resp_get.json()["headers"]["Host"])
+    print(resp_get.json()["headers"])
+
+    print(resp_post.json())
 
     pprint(resp_get.content)

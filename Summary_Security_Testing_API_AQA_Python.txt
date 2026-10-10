@@ -1,0 +1,116 @@
+Security Testing API (кратко)
+
+-   Опыт: базовый–средний уровень тестирования безопасности REST API.
+-   Authentication & Authorization:
+    -   проверка JWT и OAuth2;
+    -   тестирование доступа с валидными/невалидными токенами;
+    -   проверка ролей и прав доступа.
+-   Negative Testing:
+    -   некорректные параметры;
+    -   отсутствие обязательных полей;
+    -   некорректные HTTP-методы;
+    -   обработка ошибок API.
+-   Input Validation:
+    -   SQL Injection, XSS, специальные символы, граничные значения.
+-   OWASP API Top 10:
+    -   BOLA;
+    -   Broken Authentication;
+    -   Security Misconfiguration.
+-   Дополнительно:
+    -   Rate Limiting;
+    -   HTTP Security Headers;
+    -   HTTP status codes.
+-   Инструменты:
+    -   Burp Suite;
+    -   REST Assured.
+
+Примерные тест-кейсы
+
+1.  Authentication TC-01 Валидный JWT → 200 OK. TC-02 Просроченный JWT →
+    401 Unauthorized. TC-03 Невалидный JWT → 401 Unauthorized. TC-04 Без
+    токена → 401 Unauthorized.
+
+2.  Authorization TC-05 User удаляет чужой ресурс → 403 Forbidden. TC-06
+    Admin выполняет тот же запрос → 200/204.
+
+3.  BOLA TC-07 Попытка получить чужой объект (/orders/100 вместо своего)
+    → 403 или 404.
+
+4.  Input Validation TC-08 SQL Injection (’ OR 1=1 –) → запрос отклонён,
+    без SQL ошибок. TC-09 XSS (
+
+    ) → скрипт не выполняется. TC-10 Строка 5000 символов → 400 Bad
+    Request.
+
+5.  Negative Testing TC-11 Нет обязательного поля → 400. TC-12 Неверный
+    тип данных → 400.
+
+6.  Rate Limiting TC-13 Отправить множество запросов → 429 Too Many
+    Requests.
+
+7.  HTTP Security Headers TC-14 Проверить наличие:
+
+-   Strict-Transport-Security
+-   X-Content-Type-Options
+-   Content-Security-Policy
+-   X-Frame-Options
+
+8.  HTTP Methods TC-15 Неподдерживаемый HTTP-метод → 405 Method Not
+    Allowed.
+
+9.  Error Handling TC-16 Проверить, что ответ не содержит stack trace,
+    SQL-запросов, путей к файлам и внутренней информации.
+
+Что автоматизировать в AQA Python - Проверка status codes. - Проверка
+тела ответа. - Проверка security headers. - Проверка JWT (валидный,
+невалидный, expired). - Параметризованные негативные тесты (SQLi, XSS,
+длинные строки, пустые значения). - Проверка Rate Limiting.
+
+Security Testing API (кратко)
+Опыт: базовый–средний уровень тестирования безопасности REST API.
+Authentication & Authorization:
+проверка JWT и OAuth2;
+тестирование доступа с валидными/невалидными токенами;
+проверка ролей и прав доступа.
+
+Negative Testing:
+некорректные параметры;
+отсутствие обязательных полей;
+некорректные HTTP-методы;
+обработка ошибок API.
+
+Input Validation:
+проверка валидации данных;
+SQL Injection, XSS, специальные символы;
+граничные значения.
+OWASP API Top 10:
+BOLA (доступ к чужим ресурсам);
+Broken Authentication;
+Security Misconfiguration;
+общее понимание остальных рисков.
+Дополнительные проверки:
+Rate Limiting;
+HTTP Security Headers;
+корректные HTTP status codes.
+
+Инструменты:
+Burp Suite — перехват, модификация и анализ HTTP-запросов.
+REST Assured — автоматизация security-проверок API (написание тестов, негативные сценарии, проверки ответов).
+Что можно сказать одной фразой
+
+Имею опыт базового и среднего уровня в Security Testing REST API: проверял аутентификацию и авторизацию (JWT/OAuth2),
+негативные сценарии, валидацию входных данных, Rate Limiting, HTTP Security Headers и основные риски из
+OWASP API Top 10 (BOLA, Broken Authentication, Security Misconfiguration). Для ручного анализа использовал Burp Suite,
+для автоматизации проверок — REST Assured.
+
+Что особенно ценят на собеседовании AQA Python
+
+Если интервьюер попросит привести примеры автоматизации, можно сказать, что подобные проверки автоматизируются в тестах:
+
+проверка кодов ответа (401, 403, 404, 429);
+проверка структуры и тела ответа;
+проверка наличия security headers;
+отправка запросов с различными JWT (валидный, невалидный, просроченный);
+параметризованные негативные тесты (SQLi, XSS, длинные строки, пустые значения);
+нагрузочные сценарии для проверки rate limiting. Это показывает не только знание security-принципов,
+но и умение интегрировать такие проверки в автоматизированный API-фреймворк на Python (например, pytest + requests).
